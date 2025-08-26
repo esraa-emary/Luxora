@@ -18,3 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     foots.forEach(foot => observer.observe(foot));
 });
+
+
+const checkbox = document.querySelector('.hamburgers input');
+const navbar = document.getElementById('navbarContent');
+
+checkbox.addEventListener('change', () => {
+    if (checkbox.checked) {
+        navbar.style.display = 'block';
+    } else {
+        navbar.style.display = 'none';
+    }
+});

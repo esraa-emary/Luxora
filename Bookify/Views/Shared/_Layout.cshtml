@@ -17,56 +17,75 @@
                     </a>
                 </div>
 
-                @*make it dynamic*@
-                <ul class="center-center menu">
-                    <li>
-                        Category▾ 
-                        <ul class="sub-menu">
-                            <li><a asp-controller="" asp-action="">All</a></li>
-                            <li><a asp-controller="" asp-action="">Standard</a></li>
-                            <li><a asp-controller="" asp-action="">Deluxe</a></li>
-                            <li><a asp-controller="" asp-action="">Suite</a></li>
-                            <li><a asp-controller="" asp-action="">Special View</a></li>
-                            <li><a asp-controller="" asp-action="">Family & Group</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        Authentication▾
-                        <ul class="sub-menu">
-                            <li><a href="">login</a></li>
-                            <li><a href="">signup</a></li>
-                        </ul>
-                    </li>
-                    <li>Profile</li>
-                </ul>
+                <div class="center-center">
+                    <div class="hamburgers">
+                        <label class="hamburger">
+                            <input type="checkbox" />
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </label>
+
+                        <div id="navbarContent">
+                            <ul class="center-center menu">
+                                <li>
+                                    Category▾
+                                    <ul class="sub-menu">
+                                        <li><a asp-controller="" asp-action="">All</a></li>
+                                        <li><a asp-controller="" asp-action="">Standard</a></li>
+                                        <li><a asp-controller="" asp-action="">Deluxe</a></li>
+                                        <li><a asp-controller="" asp-action="">Suite</a></li>
+                                        <li><a asp-controller="" asp-action="">Special View</a></li>
+                                        <li><a asp-controller="" asp-action="">Family & Group</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Authentication▾
+                                    <ul class="sub-menu">
+                                        <li><a href="">login</a></li>
+                                        <li><a href="">signup</a></li>
+                                    </ul>
+                                </li>
+                                <li>Profile</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
 
         <div>
-            <main role="main" style="padding-top:8vh;padding-bottom:20vh;" class="pages">
+            <main role="main" style="padding-top:8vh;" class="pages">
                 @RenderBody()
             </main>
         </div>
 
         <footer>
-            <div class="center-between">
-                <div class="foot">
+            <div class="center-center foot-container">
+                <div class="foot foot1">
                     <h3>Privacy Policy</h3>
                     <p>
-                        At Bookify, we respect your privacy. Any personal information <br/>
-                        you share with us (such as your name, email, or preferences) is <br/>
+                        At Bookify, we respect your privacy. Any personal information 
+                        you share with us (such as your name, email, or preferences) is
                         kept secure and used only to improve your experience.
                     </p>
                 </div>
 
-            <div class="foot">
+                <div class="foot foot1">
                     <h3>Reservations & Payments</h3>
                     <p>All reservations are subject to availability and confirmation.</p>
                     <p>Prices shown are in the selected currency and may include applicable taxes or fees.</p>
                     <p>Full or partial payment may be required to secure a booking.</p>
                 </div>
 
-            <div class="foot">
+                <div class="foot foot2">
+                    <h3>Contact Us</h3>
+                    <p>📍 123 Main Street, Cairo</p>
+                    <p>📧 info@bookifyhotel.com</p>
+                    <p>📞 +20 123 456 789</p>
+                </div>
+
+                <div class="foot foot3">
                     <h3>Quick Links</h3>
                     <ul>
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
@@ -74,13 +93,6 @@
                         <li><a href="/About">About Us</a></li>
                         <li><a href="/Contact">Contact</a></li>
                     </ul>
-                </div>
-
-            <div class="foot">
-                    <h3>Contact Us</h3>
-                    <p>📍 123 Main Street, Cairo</p>
-                    <p>📞 +20 123 456 789</p>
-                    <p>📧 info@bookifyhotel.com</p>
                 </div>
             </div>
 
