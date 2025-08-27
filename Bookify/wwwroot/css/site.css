@@ -76,6 +76,7 @@ nav {
     width: 100%;
     padding: 0 20px;
     background-color: var(--first-color);
+    z-index:1000 !important;
 }
 
 .logo-container{
@@ -174,7 +175,6 @@ nav {
     margin: 0;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
 }
 
 .bar {
@@ -235,7 +235,7 @@ footer a:hover{
 }
 
 .rights{
-    margin-top:15px;
+    margin-top:10px;
 }
 
 .foot {
@@ -266,9 +266,240 @@ footer a:hover{
     max-width: 450px;
 }
 
-/*////////////////////////////////////////////////////// layout*/
+/*////////////////////////////////////////////////////// index*/
+/*//////////////////////////////// hero*/
 
+.hero-section-img-large, .hero-section-img-small {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    box-shadow: 0 6px 8px -2px rgba(0,0,0,0.25);
+}
 
+.hero-section-img img,.hero-section-img-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    object-position: center; 
+}
+
+.hero-section-img-large, .hero-section-img-small {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+}
+  
+.hero-section-img-large img,
+.hero-section-img-small img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0; 
+    transition: opacity 0.7s ease-in-out;
+}
+
+.hero-section-img-small {
+    display: none;
+}
+
+.hero-section-img-large img.active,
+.hero-section-img-small img.active {
+    opacity: 1; 
+}
+
+.hero-section-img-large img.exit,
+.hero-section-img-small img.exit{
+    opacity: 0;
+}
+
+.pre-next-container{
+    position:relative;
+}
+
+.prev, .next {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    position: absolute;
+    bottom: 33vh;
+    font-size: 18px;
+    color: var(--first-color);
+    opacity: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next{
+    right:10px;
+}
+
+.dots {
+    position:relative;
+    bottom:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+}
+
+.dot {
+    width:8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+.dot.active {
+    background-color: #fff;
+    transform: scale(1.2);
+}
+
+.hero-section-div{
+    min-height:30vh;
+}
+
+/*//////////////////////////////// reviews*/
+
+.fixed-rating {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffa723;
+}
+
+.fixed-rating .empty {
+    color: #ccc; 
+}
+
+.reviews-container {
+    padding: 20px;
+}
+
+.reviews-container h2{
+    margin-bottom:20px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.review {
+    border: 2px solid var(--sixth-color);
+    background-color: var(--third-color);
+    padding: 20px;
+    border-radius: 30px;
+    transition: all ease-in-out 0.6s;
+    opacity: 0;
+    transform: translateX(0); 
+}
+
+.review:nth-child(2n+1) {
+    transform: translateX(-5%);
+}
+
+.review:nth-child(2n) {
+    transform: translateX(5%);
+}
+
+.review.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.review.show:hover {
+    transform: scale(1.05);
+}
+
+.header-review{
+    width:100%;
+    margin-bottom:10px;
+}
+
+/*//////////////////////////////// contant*/
+
+.contact {
+    background-image: url("/img/index-contact/img.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 92vh;
+    color:var(--sixth-color);
+}
+
+.contact form{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    padding:20px;
+    width:300px;
+    border-radius:15px;
+}
+
+.inputs{
+    width:100%;
+}
+
+.inputs div {
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.inputs input{
+    border: 1px solid var(--sixth-color);
+    padding:0;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+}
+
+.contact button {
+    background-color: var(--sixth-color);
+    color:var(--third-color);
+    border: none;
+    height: 30px;
+    width:60px;
+    transition: all ease-in-out 0.4s;
+}
+
+.contact button:hover{
+    background-color: var(--third-color);
+    color: var(--sixth-color);
+    cursor:pointer;
+}
+
+.contact textarea {
+    width: 100%;
+    min-height: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+}
+
+.contact h3{
+    margin-bottom:10px;
+}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -279,6 +510,7 @@ footer a:hover{
 }
 
 @media (max-width: 768px){
+    /*//////////////////////////////// layout*/
     .foot-container{
         flex-direction: column;
         text-align:center;
@@ -299,6 +531,7 @@ footer a:hover{
         border-bottom-left-radius: 10px;
         padding: 5px 0;
         padding-left: 10px;
+        z-index: 999 !important;
     }
 
     #dropdownMenu {
@@ -367,6 +600,7 @@ footer a:hover{
 
     #navbarContent .menu > li {
         display: block;
+        position:static !important;
         width: 100%;
         margin-bottom: 8px;
         height: auto; 
@@ -387,7 +621,6 @@ footer a:hover{
         background: transparent;    
         box-shadow: none;          
         border-radius: 0;
-        z-index: auto;
     }
 
     #navbarContent .sub-menu li {
@@ -400,5 +633,56 @@ footer a:hover{
         width: 100%;
         padding-left: 4px;
         text-align: left;
+    }
+
+    /*//////////////////////////////// reviews section*/
+    .reviews {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 650px){
+    /*//////////////////////////////// hero section*/
+    .hero-section-img-small {
+        display: block;
+    }
+
+    .hero-section-img-large {
+        display: none;
+    }
+
+    .hero-section-img-small {
+        height: 45vh;
+    }
+
+    .hero-section-img-small {
+        height: 45vh;
+    }
+
+    .prev, .next {
+        bottom: 22vh;
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .prev {
+        left: 5px;
+    }
+
+    .next {
+        right:5px;
+    }
+
+    .dot {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+@media (max-width: 490px){
+    /*//////////////////////////////// reviews section*/
+    .reviews {
+        grid-template-columns: repeat(1,1fr);
     }
 }

@@ -1,5 +1,14 @@
 wwwroot\css\site.css
 wwwroot\icon.png
+wwwroot\img\index_hero\img1.jpg
+wwwroot\img\index_hero\img1-s.jpg
+wwwroot\img\index_hero\img2.jpg
+wwwroot\img\index_hero\img2-s.jpg
+wwwroot\img\index_hero\img4.jpg
+wwwroot\img\index_hero\img4-s.jpg
+wwwroot\img\index_hero\img5.jpg
+wwwroot\img\index_hero\img5-s.jpg
+wwwroot\img\index-contact\img.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
