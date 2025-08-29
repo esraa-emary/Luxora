@@ -1,0 +1,89 @@
+@{
+    ViewData["Title"] = "Login - Bookify";
+}
+
+<div class="auth-container">
+    <section class="auth-hero-section">
+        <div class="auth-background">
+            <div class="auth-overlay"></div>
+        </div>
+        
+        <div class="auth-content center-center">
+            <div class="auth-form-container">
+                <div class="auth-form-header center-center col">
+                    <h1>Welcome Back</h1>
+                    <p>Sign in to your Bookify account</p>
+                </div>
+
+                <form asp-controller="Auth" asp-action="Login" method="post" class="auth-form center-center col">
+                    <div class="auth-inputs">
+                        <div class="auth-input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email" />
+                        </div>
+
+                        <div class="auth-input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required placeholder="Enter your password" />
+                        </div>
+
+                        <div class="auth-options center-between">
+                            <label class="remember-me">
+                                <input type="checkbox" name="rememberMe" />
+                                <span class="checkmark"></span>
+                                Remember me
+                            </label>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+
+                        <div class="auth-button-group center-center">
+                            <button type="submit" class="auth-btn auth-btn-primary">Sign In</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="auth-footer center-center">
+                    <p>Don't have an account? <a asp-controller="Auth" asp-action="Signup" class="auth-link">Sign up</a></p>
+                </div>
+
+                <div class="auth-divider center-center">
+                    <span>or</span>
+                </div>
+
+                <div class="social-auth center-center col">
+                    <button type="button" class="social-btn google-btn center-center">
+                        <span>Continue with Google</span>
+                    </button>
+                    <button type="button" class="social-btn facebook-btn center-center">
+                        <span>Continue with Facebook</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="auth-features center-center">
+        <div class="features-container">
+            <h2>Why Choose Bookify?</h2>
+            <div class="features-grid">
+                <div class="feature-card center-center col">
+                    <div class="feature-icon">🏨</div>
+                    <h3>Premium Accommodations</h3>
+                    <p>Experience luxury and comfort in our carefully selected rooms</p>
+                </div>
+                <div class="feature-card center-center col">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Booking</h3>
+                    <p>Quick and easy reservations with instant confirmation</p>
+                </div>
+                <div class="feature-card center-center col">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Best Rates</h3>
+                    <p>Competitive pricing with exclusive member discounts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

@@ -1,3 +1,6 @@
+using Bookify.DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
+
 namespace Bookify
 {
     public class Program
@@ -8,6 +11,10 @@ namespace Bookify
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Add Entity Framework
+            builder.Services.AddDbContext<BookifyDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
