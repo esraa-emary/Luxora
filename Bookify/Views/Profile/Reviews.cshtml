@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "My Reviews";
+}
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h1>My Reviews</h1>
+        <p class="welcome-text">Your feedback and ratings</p>
+    </div>
+
+    <div class="profile-content">
+        <div class="reviews-container">
+            <div class="reviews-list">
+                <div class="review-card">
+                    <div class="review-header">
+                        <h3>Deluxe Room</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p class="review-content">"Excellent service and comfortable room. Will definitely stay again!"</p>
+                    <p class="review-date">Posted on: June 15, 2025</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <h3>Standard Room</h3>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <p class="review-content">"Good value for money. Clean and comfortable."</p>
+                    <p class="review-date">Posted on: April 10, 2025</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <h3>Hotel Service</h3>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <p class="review-content">"Staff was very helpful and attentive throughout my stay."</p>
+                    <p class="review-date">Posted on: March 22, 2025</p>
+                </div>
+            </div>
+            
+            <div class="back-button">
+                <a asp-controller="Profile" asp-action="Index" class="back-btn">Back to Profile</a>
+            </div>
+        </div>
+    </div>
+</div>

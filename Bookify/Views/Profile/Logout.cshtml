@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h1>Logout</h1>
+        <p class="welcome-text">Are you sure you want to logout?</p>
+    </div>
+
+    <div class="profile-content">
+        <div class="logout-container">
+            <div class="logout-message">
+                <p>You will be signed out of your account.</p>
+            </div>
+            
+            <div class="logout-actions">
+                <button class="confirm-btn">Yes, Logout</button>
+                <a asp-controller="Profile" asp-action="Index" class="cancel-btn">Cancel</a>
+            </div>
+        </div>
+    </div>
+</div>

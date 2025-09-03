@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h1>Edit Profile</h1>
+        <p class="welcome-text">Update your personal information</p>
+    </div>
+
+    <div class="profile-content">
+        <div class="form-container">
+            <form class="profile-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" value="Ahmed">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" value="Sameh">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" value="ahmedsmoselhi@gmail.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" value="+20 123 456 789">
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address">Cairo, Egypt</textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="save-btn">Save Changes</button>
+                    <a asp-controller="Profile" asp-action="Index" class="cancel-btn">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="profile-container">
+    <div class="profile-header">
+        <h1>My Profile</h1>
+        <p class="welcome-text">Welcome back, Ahmed Sameh</p>
+    </div>
+
+    <div class="profile-content">
+        <!-- Account Details Section -->
+        <div class="account-details">
+            <div class="section-header">
+                <h2>Account Details</h2>
+            </div>
+            
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="detail-label">First Name</span>
+                    <span class="detail-value">Ahmed</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Last Name</span>
+                    <span class="detail-value">Sameh</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Email Address</span>
+                    <span class="detail-value">ahmedsmoselhi@gmail.com</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Phone Number</span>
+                    <span class="detail-value">+20 123 456 789</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Address</span>
+                    <span class="detail-value">Cairo, Egypt</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <a asp-controller="Profile" asp-action="Edit" class="action-btn edit-btn">
+                <span class="btn-icon">✏️</span>
+                <span class="btn-text">Edit Profile</span>
+            </a>
+            
+            <a asp-controller="Profile" asp-action="ChangePassword" class="action-btn password-btn">
+                <span class="btn-icon">🔒</span>
+                <span class="btn-text">Change Password</span>
+            </a>
+            
+            <a asp-controller="Profile" asp-action="Reviews" class="action-btn reviews-btn">
+                <span class="btn-icon">⭐</span>
+                <span class="btn-text">My Reviews</span>
+            </a>
+            
+            <a asp-controller="Profile" asp-action="Logout" class="action-btn logout-btn">
+                <span class="btn-icon">🚪</span>
+                <span class="btn-text">Logout</span>
+            </a>
+        </div>
+    </div>
+</div>
