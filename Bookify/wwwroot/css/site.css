@@ -1084,3 +1084,106 @@ footer a:hover{
         padding: 25px 15px;
     }
 }
+
+///////////////////////
+.Book_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.history-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.card-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-info p {
+    margin: 3px 0;
+    color: #555;
+}
+
+.card-status {
+    text-align: right;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+    .status.Completed {
+        background: #d4f8d4;
+        color: #1b7a1b;
+    }
+
+    .status.Pending {
+        background: #e0ecff;
+        color: #2b5cb3;
+    }
+
+    .status.Cancelled {
+        background: #ffe0e0;
+        color: #d64545;
+    }
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.history-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.history-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.history-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}

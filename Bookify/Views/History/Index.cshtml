@@ -1,0 +1,48 @@
+﻿@model List<Bookify.DataAccessLayer.Entities.Reservation>
+
+@{
+    ViewData["Title"] = "Booking History";
+}
+
+<h2 class="Book_title">My Booking History</h2>
+
+<div class="filter">
+    <select>
+        <option>All</option>
+        <option>Completed</option>
+        <option>Pending</option>
+        <option>Cancelled</option>
+    </select>
+</div>
+
+<div class="history-list">
+    @foreach (var r in Model)
+    {
+        <div class="history-card">
+            <div class="card-info">
+                <h3>@r.Room.Description</h3>
+                <p>@r.Customer.FirstName</p>
+                <p>@r.Room.RoomNumber</p>
+                <p>@r.StartDate.ToString("dd MMM yyyy") → @r.EndDate.ToString("dd MMM yyyy")</p>
+            </div>
+            <div class="card-status">
+                <span class="status @(r.Status)">@r.Status</span>
+                <p class="price">$@r.Price</p>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .Book_title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #2c3e50; 
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+</style>

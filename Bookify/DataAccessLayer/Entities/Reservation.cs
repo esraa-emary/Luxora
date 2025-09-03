@@ -25,6 +25,9 @@ namespace Bookify.DataAccessLayer.Entities
         [Required]
         [Column(TypeName = "decimal(10,2)")]
         public decimal Price { get; set; }
+        [Required]
+        public ReservationStatus Status { get; set; } = ReservationStatus.Pending;
+
 
         // Foreign Keys
         [Required]
