@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\book\\Bookify\\Bookify\\Bookify.csproj": {}
+    "F:\\DEPI-R3\\Bookify\\Bookify\\Bookify.csproj": {}
   },
   "projects": {
-    "D:\\book\\Bookify\\Bookify\\Bookify.csproj": {
+    "F:\\DEPI-R3\\Bookify\\Bookify\\Bookify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\book\\Bookify\\Bookify\\Bookify.csproj",
+        "projectUniqueName": "F:\\DEPI-R3\\Bookify\\Bookify\\Bookify.csproj",
         "projectName": "Bookify",
-        "projectPath": "D:\\book\\Bookify\\Bookify\\Bookify.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\book\\Bookify\\Bookify\\obj\\",
+        "projectPath": "F:\\DEPI-R3\\Bookify\\Bookify\\Bookify.csproj",
+        "packagesPath": "C:\\Users\\Esoooo\\.nuget\\packages\\",
+        "outputPath": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Esoooo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -90,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

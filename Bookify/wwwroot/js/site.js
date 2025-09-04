@@ -170,19 +170,15 @@ window.addEventListener("load", handleScroll);
 /////////////////////////////////////////////////////////////// make order page
 /////////////////////////// form 
 
-
 // Calculate nights automatically
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const checkinInput = document.getElementById("check-in-date");
     const nightsInput = document.getElementById("nightsNumber");
     const checkoutInput = document.getElementById("check-out-date");
 
-    // إنشاء عنصر لرسالة الخطأ
     const errorMsg = document.createElement("small");
     errorMsg.style.color = "red";
-    errorMsg.style.display = "none"; // مخفي في البداية
+    errorMsg.style.display = "none";
     checkoutInput.parentNode.appendChild(errorMsg);
 
     function calculateNights() {
@@ -195,11 +191,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (diffDays > 0) {
                 nightsInput.value = diffDays;
-                errorMsg.style.display = "none"; // إخفاء رسالة الخطأ
+                errorMsg.style.display = "none"; 
             } else {
                 nightsInput.value = "";
                 errorMsg.textContent = "⚠️ Check-out date must be after Check-in date.";
-                errorMsg.style.display = "block"; // إظهار رسالة الخطأ
+                errorMsg.style.display = "block";
             }
         } else {
             nightsInput.value = "";
@@ -210,7 +206,6 @@ document.addEventListener("DOMContentLoaded", () => {
     checkinInput.addEventListener("change", calculateNights);
     checkoutInput.addEventListener("change", calculateNights);
 });
-
 
 // Form validation
 document.querySelector(".btn").addEventListener("click", function () {

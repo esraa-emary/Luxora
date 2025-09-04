@@ -8,6 +8,7 @@ namespace Bookify.Controllers
         {
             return View();
         }
+
         public IActionResult Terms()
         {
             return View();

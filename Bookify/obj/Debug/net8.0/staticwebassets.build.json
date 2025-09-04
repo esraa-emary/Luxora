@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VTk4gdgHCt1f+XZeTyGj7bPNcXtaA5TmEfCXDWwLOmU=",
+  "Hash": "/MQjoOWkOp8gD7cZ7MFSGZ4aTxD1dV3WaTePosv/CDo=",
   "Source": "Bookify",
   "BasePath": "_content/Bookify",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Bookify\\wwwroot",
       "Source": "Bookify",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
       "SourceId": "Bookify",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "Bookify#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "iqNA/WZyWQfyaGavp0uaFhTOieDcH6OqPfzcM3GfuOY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css"
+      "OriginalItemSpec": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
       "SourceId": "Bookify",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "Bookify#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "iqNA/WZyWQfyaGavp0uaFhTOieDcH6OqPfzcM3GfuOY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css"
+      "OriginalItemSpec": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\css\\site.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\css\\site.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "otb8xwfyza",
-      "Integrity": "JGGGWrIH5mWduW6cMzy0gxK63zL9AeRYGjTkeuZY5I4=",
+      "Fingerprint": "29mznjwxy7",
+      "Integrity": "msHIWwj3as7bwXaAIzorKVBAcrzOne+X6Z7YCeJXDBM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\icon.png",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\icon.png",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "icon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\icon.png"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img1.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img1-s#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img1-s.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img2.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img2-s#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img2-s.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img4.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img4-s#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img4-s.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img5.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index_hero/img5-s#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index_hero\\img5-s.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "img/index-contact/img#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\img\\index-contact\\img.jpg"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\js\\site.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\js\\site.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -304,17 +304,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7b2oaibswx",
-      "Integrity": "TVwG1aBD3aKIKZ2UfxAMQ2tWuF7+vMgO5urVnACE8vg=",
+      "Fingerprint": "5f6z34dqmj",
+      "Integrity": "vzG3Ek8rGFyLAsflHBcaSMOK7obW3itVZ7e2SXAnaG4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Bookify",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\book\\Bookify\\Bookify\\wwwroot\\",
+      "ContentRoot": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\",
       "BasePath": "_content/Bookify",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1511,7 +1511,7 @@
   "Endpoints": [
     {
       "Route": "Bookify.2t2xgw4wxl.bundle.scp.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1532,7 +1532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1556,7 +1556,7 @@
     },
     {
       "Route": "Bookify.2t2xgw4wxl.styles.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1577,7 +1577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1601,7 +1601,7 @@
     },
     {
       "Route": "Bookify.bundle.scp.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bookify.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1622,7 +1622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1638,7 +1638,7 @@
     },
     {
       "Route": "Bookify.styles.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Bookify.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1659,7 +1659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1674,8 +1674,8 @@
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\css\\site.css",
+      "Route": "css/site.29mznjwxy7.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1684,7 +1684,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40542"
+          "Value": "38626"
         },
         {
           "Name": "Content-Type",
@@ -1692,48 +1692,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JGGGWrIH5mWduW6cMzy0gxK63zL9AeRYGjTkeuZY5I4=\""
+          "Value": "\"msHIWwj3as7bwXaAIzorKVBAcrzOne+X6Z7YCeJXDBM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 13:38:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-JGGGWrIH5mWduW6cMzy0gxK63zL9AeRYGjTkeuZY5I4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.otb8xwfyza.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40542"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JGGGWrIH5mWduW6cMzy0gxK63zL9AeRYGjTkeuZY5I4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 13:38:33 GMT"
+          "Value": "Thu, 04 Sep 2025 14:09:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1743,7 +1706,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "otb8xwfyza"
+          "Value": "29mznjwxy7"
         },
         {
           "Name": "label",
@@ -1751,13 +1714,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JGGGWrIH5mWduW6cMzy0gxK63zL9AeRYGjTkeuZY5I4="
+          "Value": "sha256-msHIWwj3as7bwXaAIzorKVBAcrzOne+X6Z7YCeJXDBM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"msHIWwj3as7bwXaAIzorKVBAcrzOne+X6Z7YCeJXDBM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Sep 2025 14:09:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-msHIWwj3as7bwXaAIzorKVBAcrzOne+X6Z7YCeJXDBM="
         }
       ]
     },
     {
       "Route": "icon.90dlc6jveh.png",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\icon.png",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\icon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1778,7 +1778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1802,7 +1802,7 @@
     },
     {
       "Route": "icon.png",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\icon.png",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\icon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1823,7 +1823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1839,7 +1839,7 @@
     },
     {
       "Route": "img/index_hero/img1.6hp5a0yje3.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1860,7 +1860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1884,7 +1884,7 @@
     },
     {
       "Route": "img/index_hero/img1.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1905,7 +1905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1921,7 +1921,7 @@
     },
     {
       "Route": "img/index_hero/img1-s.bllv9ps8vv.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1942,7 +1942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1966,7 +1966,7 @@
     },
     {
       "Route": "img/index_hero/img1-s.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img1-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1987,7 +1987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2003,7 +2003,7 @@
     },
     {
       "Route": "img/index_hero/img2.inf5kl74pr.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2024,7 +2024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2048,7 +2048,7 @@
     },
     {
       "Route": "img/index_hero/img2.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2069,7 +2069,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2085,7 +2085,7 @@
     },
     {
       "Route": "img/index_hero/img2-s.5gur1yydfm.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2106,7 +2106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2130,7 +2130,7 @@
     },
     {
       "Route": "img/index_hero/img2-s.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img2-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2151,7 +2151,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2167,7 +2167,7 @@
     },
     {
       "Route": "img/index_hero/img4.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2188,7 +2188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2204,7 +2204,7 @@
     },
     {
       "Route": "img/index_hero/img4.mhb99ds0cn.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2225,7 +2225,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2249,7 +2249,7 @@
     },
     {
       "Route": "img/index_hero/img4-s.3o8xzrh867.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2270,7 +2270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2294,7 +2294,7 @@
     },
     {
       "Route": "img/index_hero/img4-s.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img4-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2315,7 +2315,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2331,7 +2331,7 @@
     },
     {
       "Route": "img/index_hero/img5.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2352,7 +2352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2368,7 +2368,7 @@
     },
     {
       "Route": "img/index_hero/img5.k0lsdo9wdf.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2389,7 +2389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2413,7 +2413,7 @@
     },
     {
       "Route": "img/index_hero/img5-s.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2434,7 +2434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2450,7 +2450,7 @@
     },
     {
       "Route": "img/index_hero/img5-s.md9ipgn8ca.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index_hero\\img5-s.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2471,7 +2471,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2495,7 +2495,7 @@
     },
     {
       "Route": "img/index-contact/img.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2516,7 +2516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2532,7 +2532,7 @@
     },
     {
       "Route": "img/index-contact/img.nhtxlj54h7.jpg",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\img\\index-contact\\img.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2553,7 +2553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2576,8 +2576,8 @@
       ]
     },
     {
-      "Route": "js/site.7b2oaibswx.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\js\\site.js",
+      "Route": "js/site.5f6z34dqmj.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2586,7 +2586,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7824"
+          "Value": "7661"
         },
         {
           "Name": "Content-Type",
@@ -2594,11 +2594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TVwG1aBD3aKIKZ2UfxAMQ2tWuF7+vMgO5urVnACE8vg=\""
+          "Value": "\"vzG3Ek8rGFyLAsflHBcaSMOK7obW3itVZ7e2SXAnaG4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 13:19:41 GMT"
+          "Value": "Thu, 04 Sep 2025 14:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2608,7 +2608,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7b2oaibswx"
+          "Value": "5f6z34dqmj"
         },
         {
           "Name": "label",
@@ -2616,13 +2616,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TVwG1aBD3aKIKZ2UfxAMQ2tWuF7+vMgO5urVnACE8vg="
+          "Value": "sha256-vzG3Ek8rGFyLAsflHBcaSMOK7obW3itVZ7e2SXAnaG4="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\js\\site.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2631,7 +2631,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7824"
+          "Value": "7661"
         },
         {
           "Name": "Content-Type",
@@ -2639,11 +2639,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TVwG1aBD3aKIKZ2UfxAMQ2tWuF7+vMgO5urVnACE8vg=\""
+          "Value": "\"vzG3Ek8rGFyLAsflHBcaSMOK7obW3itVZ7e2SXAnaG4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 13:19:41 GMT"
+          "Value": "Thu, 04 Sep 2025 14:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2653,13 +2653,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TVwG1aBD3aKIKZ2UfxAMQ2tWuF7+vMgO5urVnACE8vg="
+          "Value": "sha256-vzG3Ek8rGFyLAsflHBcaSMOK7obW3itVZ7e2SXAnaG4="
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2680,7 +2680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2696,7 +2696,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2717,7 +2717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2741,7 +2741,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2762,7 +2762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2778,7 +2778,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2799,7 +2799,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2823,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2844,7 +2844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2860,7 +2860,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2881,7 +2881,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2905,7 +2905,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2926,7 +2926,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2942,7 +2942,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2963,7 +2963,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2987,7 +2987,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3008,7 +3008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3024,7 +3024,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3045,7 +3045,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3069,7 +3069,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3090,7 +3090,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3106,7 +3106,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3127,7 +3127,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3151,7 +3151,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3172,7 +3172,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3196,7 +3196,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3217,7 +3217,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3233,7 +3233,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3254,7 +3254,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3278,7 +3278,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3299,7 +3299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3315,7 +3315,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3336,7 +3336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3352,7 +3352,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3373,7 +3373,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3389,7 +3389,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3410,7 +3410,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3434,7 +3434,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3455,7 +3455,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3479,7 +3479,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3500,7 +3500,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3516,7 +3516,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3537,7 +3537,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3561,7 +3561,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3582,7 +3582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3598,7 +3598,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3619,7 +3619,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3643,7 +3643,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3664,7 +3664,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3680,7 +3680,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3701,7 +3701,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3725,7 +3725,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3746,7 +3746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3762,7 +3762,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3783,7 +3783,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3807,7 +3807,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3828,7 +3828,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3844,7 +3844,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3865,7 +3865,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3881,7 +3881,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3902,7 +3902,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3926,7 +3926,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3947,7 +3947,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3971,7 +3971,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3992,7 +3992,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4008,7 +4008,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4029,7 +4029,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4053,7 +4053,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4074,7 +4074,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4090,7 +4090,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4111,7 +4111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4127,7 +4127,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4148,7 +4148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4164,7 +4164,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4185,7 +4185,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4209,7 +4209,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4230,7 +4230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4254,7 +4254,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4275,7 +4275,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4299,7 +4299,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4320,7 +4320,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4344,7 +4344,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4365,7 +4365,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4381,7 +4381,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4402,7 +4402,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4426,7 +4426,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4447,7 +4447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4463,7 +4463,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4484,7 +4484,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4500,7 +4500,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4521,7 +4521,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4537,7 +4537,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4558,7 +4558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4582,7 +4582,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4603,7 +4603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4627,7 +4627,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4648,7 +4648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4664,7 +4664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4685,7 +4685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4709,7 +4709,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4730,7 +4730,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4746,7 +4746,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4767,7 +4767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4791,7 +4791,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4812,7 +4812,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4828,7 +4828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4849,7 +4849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4865,7 +4865,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4886,7 +4886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4910,7 +4910,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4931,7 +4931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4947,7 +4947,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4968,7 +4968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4992,7 +4992,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5013,7 +5013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5029,7 +5029,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5050,7 +5050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5066,7 +5066,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5087,7 +5087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5111,7 +5111,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5132,7 +5132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5148,7 +5148,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5169,7 +5169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5193,7 +5193,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5214,7 +5214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5238,7 +5238,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5259,7 +5259,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5283,7 +5283,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5304,7 +5304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5328,7 +5328,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5349,7 +5349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5373,7 +5373,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5394,7 +5394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5410,7 +5410,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5431,7 +5431,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5455,7 +5455,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5476,7 +5476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5492,7 +5492,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5513,7 +5513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5537,7 +5537,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5558,7 +5558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5574,7 +5574,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5595,7 +5595,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5619,7 +5619,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5640,7 +5640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5656,7 +5656,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5677,7 +5677,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5693,7 +5693,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5714,7 +5714,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5738,7 +5738,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5759,7 +5759,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5775,7 +5775,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5796,7 +5796,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5820,7 +5820,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5841,7 +5841,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5857,7 +5857,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5878,7 +5878,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5894,7 +5894,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5915,7 +5915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5939,7 +5939,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5960,7 +5960,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5984,7 +5984,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6005,7 +6005,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6021,7 +6021,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6042,7 +6042,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6066,7 +6066,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6087,7 +6087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6103,7 +6103,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6124,7 +6124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6148,7 +6148,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6169,7 +6169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6185,7 +6185,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6206,7 +6206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6222,7 +6222,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6243,7 +6243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6267,7 +6267,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6288,7 +6288,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6304,7 +6304,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6325,7 +6325,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6349,7 +6349,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6370,7 +6370,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6394,7 +6394,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6415,7 +6415,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6431,7 +6431,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6452,7 +6452,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6476,7 +6476,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6497,7 +6497,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6521,7 +6521,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6542,7 +6542,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6558,7 +6558,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6579,7 +6579,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6595,7 +6595,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6616,7 +6616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6640,7 +6640,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6661,7 +6661,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6677,7 +6677,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6698,7 +6698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6722,7 +6722,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6743,7 +6743,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6759,7 +6759,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6780,7 +6780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6804,7 +6804,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6825,7 +6825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6841,7 +6841,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6862,7 +6862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6886,7 +6886,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6907,7 +6907,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6923,7 +6923,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6944,7 +6944,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6960,7 +6960,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6981,7 +6981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7005,7 +7005,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7026,7 +7026,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7042,7 +7042,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7063,7 +7063,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7087,7 +7087,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7108,7 +7108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7132,7 +7132,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7153,7 +7153,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7169,7 +7169,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7190,7 +7190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7214,7 +7214,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7235,7 +7235,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7251,7 +7251,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7272,7 +7272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7296,7 +7296,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\book\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "F:\\DEPI-R3\\Bookify\\Bookify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7317,7 +7317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 12:44:10 GMT"
+          "Value": "Thu, 04 Sep 2025 13:44:16 GMT"
         },
         {
           "Name": "Cache-Control",

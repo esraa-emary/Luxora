@@ -1,342 +1,336 @@
-﻿ @{
-    ViewData["Title"] = "Make Order";
+﻿@{
+	ViewData["Title"] = "Make Order";
 
 }
 
-
 <div class="MakeOrder">
-    <div class="container">
-    <img src="/css/hotel.jpg" alt="Beach" />
-    <h1>Hotel Booking Form</h1>
+	<div class="container">
+		<img src="/css/hotel.jpg" alt="Beach" />
+		<h1>Hotel Booking Form</h1>
 
-    <p>Please complete the form below.</p>
+		<p>Please complete the form below.</p>
 
-    <form class="form">
+		<form class="form">
 
+			<div class="guestInfo">
+				<label for="FullName">FullName: </label>
+				<input id="FullName" type="text" name="FullName" value="" placeholder="Please enter your FullName" required />
 
-     <div class="guestInfo">
-     <label for="FullName">FullName: </label>
-     <input id="FullName" type="text" name="FullName" value="" placeholder="Please enter your FullName" required />
+				<label for="Email">Email Address: </label>
+				<input id="Email" type="email" name="Email" value="" placeholder="Please enter your Email" required />
+				<label for="ID">National ID or passport Number</label>
+				<input type="text" id="ID" name="National ID Or Passport Number" value="" placeholder="enter your national id or Passport Number" required />
 
-        <label for="Email">Email Address: </label>
-                <input id="Email" type="email" name="Email" value="" placeholder="Please enter your Email" required />
-                <label for="ID">National ID or passport Number</label>
-                <input type="text" id="ID" name="National ID Or Passport Number" value="" placeholder="enter your national id or Passport Number" required />
+				<div class="column">
+					<label for="Phone">Phone Number: </label>
+					<input id="Phone" type="text" name="Phone" value="" placeholder="Please enter your Phone Number" required />
 
-                <div class="column">
-                 <label for="Phone">Phone Number: </label>
-                    <input id="Phone" type="text" name="Phone" value="" placeholder="Please enter your Phone Number" required />
+					<label for="nationality">Nationality:</label>
+					<input list="nationalities" id="nationality" name="nationality" placeholder="Select Nationality" required>
 
+					<datalist id="nationalities">
+						<option value="Afghanistan"></option>
+						<option value="Albania"></option>
+						<option value="Algeria"></option>
+						<option value="Andorra"></option>
+						<option value="Angola"></option>
+						<option value="Antigua and Barbuda"></option>
+						<option value="Argentina"></option>
+						<option value="Armenia"></option>
+						<option value="Australia"></option>
+						<option value="Austria"></option>
+						<option value="Azerbaijan"></option>
+						<option value="Bahamas"></option>
+						<option value="Bahrain"></option>
+						<option value="Bangladesh"></option>
+						<option value="Barbados"></option>
+						<option value="Belarus"></option>
+						<option value="Belgium"></option>
+						<option value="Belize"></option>
+						<option value="Benin"></option>
+						<option value="Bhutan"></option>
+						<option value="Bolivia"></option>
+						<option value="Bosnia and Herzegovina"></option>
+						<option value="Botswana"></option>
+						<option value="Brazil"></option>
+						<option value="Brunei"></option>
+						<option value="Bulgaria"></option>
+						<option value="Burkina Faso"></option>
+						<option value="Burundi"></option>
+						<option value="Cabo Verde"></option>
+						<option value="Cambodia"></option>
+						<option value="Cameroon"></option>
+						<option value="Canada"></option>
+						<option value="Central African Republic"></option>
+						<option value="Chad"></option>
+						<option value="Chile"></option>
+						<option value="China"></option>
+						<option value="Colombia"></option>
+						<option value="Comoros"></option>
+						<option value="Congo (Congo-Brazzaville)"></option>
+						<option value="Congo (Congo-Kinshasa)"></option>
+						<option value="Costa Rica"></option>
+						<option value="Croatia"></option>
+						<option value="Cuba"></option>
+						<option value="Cyprus"></option>
+						<option value="Czechia"></option>
+						<option value="Denmark"></option>
+						<option value="Djibouti"></option>
+						<option value="Dominica"></option>
+						<option value="Dominican Republic"></option>
+						<option value="Ecuador"></option>
+						<option value="Egypt"></option>
+						<option value="El Salvador"></option>
+						<option value="Equatorial Guinea"></option>
+						<option value="Eritrea"></option>
+						<option value="Estonia"></option>
+						<option value="Eswatini"></option>
+						<option value="Ethiopia"></option>
+						<option value="Fiji"></option>
+						<option value="Finland"></option>
+						<option value="France"></option>
+						<option value="Gabon"></option>
+						<option value="Gambia"></option>
+						<option value="Georgia"></option>
+						<option value="Germany"></option>
+						<option value="Ghana"></option>
+						<option value="Greece"></option>
+						<option value="Grenada"></option>
+						<option value="Guatemala"></option>
+						<option value="Guinea"></option>
+						<option value="Guinea-Bissau"></option>
+						<option value="Guyana"></option>
+						<option value="Haiti"></option>
+						<option value="Honduras"></option>
+						<option value="Hungary"></option>
+						<option value="Iceland"></option>
+						<option value="India"></option>
+						<option value="Indonesia"></option>
+						<option value="Iran"></option>
+						<option value="Iraq"></option>
+						<option value="Ireland"></option>
+						<option value="Israel"></option>
+						<option value="Italy"></option>
+						<option value="Jamaica"></option>
+						<option value="Japan"></option>
+						<option value="Jordan"></option>
+						<option value="Kazakhstan"></option>
+						<option value="Kenya"></option>
+						<option value="Kiribati"></option>
+						<option value="Kuwait"></option>
+						<option value="Kyrgyzstan"></option>
+						<option value="Laos"></option>
+						<option value="Latvia"></option>
+						<option value="Lebanon"></option>
+						<option value="Lesotho"></option>
+						<option value="Liberia"></option>
+						<option value="Libya"></option>
+						<option value="Liechtenstein"></option>
+						<option value="Lithuania"></option>
+						<option value="Luxembourg"></option>
+						<option value="Madagascar"></option>
+						<option value="Malawi"></option>
+						<option value="Malaysia"></option>
+						<option value="Maldives"></option>
+						<option value="Mali"></option>
+						<option value="Malta"></option>
+						<option value="Marshall Islands"></option>
+						<option value="Mauritania"></option>
+						<option value="Mauritius"></option>
+						<option value="Mexico"></option>
+						<option value="Micronesia"></option>
+						<option value="Moldova"></option>
+						<option value="Monaco"></option>
+						<option value="Mongolia"></option>
+						<option value="Montenegro"></option>
+						<option value="Morocco"></option>
+						<option value="Mozambique"></option>
+						<option value="Myanmar"></option>
+						<option value="Namibia"></option>
+						<option value="Nauru"></option>
+						<option value="Nepal"></option>
+						<option value="Netherlands"></option>
+						<option value="New Zealand"></option>
+						<option value="Nicaragua"></option>
+						<option value="Niger"></option>
+						<option value="Nigeria"></option>
+						<option value="North Macedonia"></option>
+						<option value="Norway"></option>
+						<option value="Oman"></option>
+						<option value="Pakistan"></option>
+						<option value="Palau"></option>
+						<option value="Palestine"></option>
+						<option value="Panama"></option>
+						<option value="Papua New Guinea"></option>
+						<option value="Paraguay"></option>
+						<option value="Peru"></option>
+						<option value="Philippines"></option>
+						<option value="Poland"></option>
+						<option value="Portugal"></option>
+						<option value="Qatar"></option>
+						<option value="Romania"></option>
+						<option value="Russia"></option>
+						<option value="Rwanda"></option>
+						<option value="Saint Kitts and Nevis"></option>
+						<option value="Saint Lucia"></option>
+						<option value="Saint Vincent and the Grenadines"></option>
+						<option value="Samoa"></option>
+						<option value="San Marino"></option>
+						<option value="Sao Tome and Principe"></option>
+						<option value="Saudi Arabia"></option>
+						<option value="Senegal"></option>
+						<option value="Serbia"></option>
+						<option value="Seychelles"></option>
+						<option value="Sierra Leone"></option>
+						<option value="Singapore"></option>
+						<option value="Slovakia"></option>
+						<option value="Slovenia"></option>
+						<option value="Solomon Islands"></option>
+						<option value="Somalia"></option>
+						<option value="South Africa"></option>
+						<option value="South Korea"></option>
+						<option value="South Sudan"></option>
+						<option value="Spain"></option>
+						<option value="Sri Lanka"></option>
+						<option value="Sudan"></option>
+						<option value="Suriname"></option>
+						<option value="Sweden"></option>
+						<option value="Switzerland"></option>
+						<option value="Syria"></option>
+						<option value="Taiwan"></option>
+						<option value="Tajikistan"></option>
+						<option value="Tanzania"></option>
+						<option value="Thailand"></option>
+						<option value="Timor-Leste"></option>
+						<option value="Togo"></option>
+						<option value="Tonga"></option>
+						<option value="Trinidad and Tobago"></option>
+						<option value="Tunisia"></option>
+						<option value="Turkey"></option>
+						<option value="Turkmenistan"></option>
+						<option value="Tuvalu"></option>
+						<option value="Uganda"></option>
+						<option value="Ukraine"></option>
+						<option value="United Arab Emirates"></option>
+						<option value="United Kingdom"></option>
+						<option value="United States"></option>
+						<option value="Uruguay"></option>
+						<option value="Uzbekistan"></option>
+						<option value="Vanuatu"></option>
+						<option value="Vatican City"></option>
+						<option value="Venezuela"></option>
+						<option value="Vietnam"></option>
+						<option value="Yemen"></option>
+						<option value="Zambia"></option>
+						<option value="Zimbabwe"></option>
+					</datalist>
+				</div>
+			</div>
 
+			<div class="BookingInfo">
+				<div class="column">
 
+					<label for="check-in-date">Check-in Date:</label>
+					<input type="date" id="check-in-date" name="check-in-date" value="" required />
 
-                <label for="nationality">Nationality:</label>
-                <input list="nationalities" id="nationality" name="nationality" placeholder="Select Nationality" required>
+					<label for="check-out-date">Check-out Date:</label>
+					<input type="date" id="check-out-date" name="check-out-date" value="" required />
+				</div>
+				<div class="nights">
+					<label for="nightsNumber">Number of Nights : </label>
+					<input type="number" id="nightsNumber" name="NumberofNights" readonly placeholder="0" />
+				</div>
+				<div class="NumberOfguests">
+					<label style="flex-wrap:nowrap">Number of Guests: </label>
+					<div class="column">
+						<label for="adults">Adults</label>
+						<input type="number" id="adults" min="1" name="adults" value="" required placeholder="1" />
+						<label for="Childeren">Children</label>
+						<input type="number" id="Childeren" min="0" name="adults" value="" placeholder="0" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="room">
+						<label for="roomType">Type of Room:</label>
+						<select id="roomType" name="roomType" required>
 
-                <datalist id="nationalities">
-                    <option value="Afghanistan"></option>
-                    <option value="Albania"></option>
-                    <option value="Algeria"></option>
-                    <option value="Andorra"></option>
-                    <option value="Angola"></option>
-                    <option value="Antigua and Barbuda"></option>
-                    <option value="Argentina"></option>
-                    <option value="Armenia"></option>
-                    <option value="Australia"></option>
-                    <option value="Austria"></option>
-                    <option value="Azerbaijan"></option>
-                    <option value="Bahamas"></option>
-                    <option value="Bahrain"></option>
-                    <option value="Bangladesh"></option>
-                    <option value="Barbados"></option>
-                    <option value="Belarus"></option>
-                    <option value="Belgium"></option>
-                    <option value="Belize"></option>
-                    <option value="Benin"></option>
-                    <option value="Bhutan"></option>
-                    <option value="Bolivia"></option>
-                    <option value="Bosnia and Herzegovina"></option>
-                    <option value="Botswana"></option>
-                    <option value="Brazil"></option>
-                    <option value="Brunei"></option>
-                    <option value="Bulgaria"></option>
-                    <option value="Burkina Faso"></option>
-                    <option value="Burundi"></option>
-                    <option value="Cabo Verde"></option>
-                    <option value="Cambodia"></option>
-                    <option value="Cameroon"></option>
-                    <option value="Canada"></option>
-                    <option value="Central African Republic"></option>
-                    <option value="Chad"></option>
-                    <option value="Chile"></option>
-                    <option value="China"></option>
-                    <option value="Colombia"></option>
-                    <option value="Comoros"></option>
-                    <option value="Congo (Congo-Brazzaville)"></option>
-                    <option value="Congo (Congo-Kinshasa)"></option>
-                    <option value="Costa Rica"></option>
-                    <option value="Croatia"></option>
-                    <option value="Cuba"></option>
-                    <option value="Cyprus"></option>
-                    <option value="Czechia"></option>
-                    <option value="Denmark"></option>
-                    <option value="Djibouti"></option>
-                    <option value="Dominica"></option>
-                    <option value="Dominican Republic"></option>
-                    <option value="Ecuador"></option>
-                    <option value="Egypt"></option>
-                    <option value="El Salvador"></option>
-                    <option value="Equatorial Guinea"></option>
-                    <option value="Eritrea"></option>
-                    <option value="Estonia"></option>
-                    <option value="Eswatini"></option>
-                    <option value="Ethiopia"></option>
-                    <option value="Fiji"></option>
-                    <option value="Finland"></option>
-                    <option value="France"></option>
-                    <option value="Gabon"></option>
-                    <option value="Gambia"></option>
-                    <option value="Georgia"></option>
-                    <option value="Germany"></option>
-                    <option value="Ghana"></option>
-                    <option value="Greece"></option>
-                    <option value="Grenada"></option>
-                    <option value="Guatemala"></option>
-                    <option value="Guinea"></option>
-                    <option value="Guinea-Bissau"></option>
-                    <option value="Guyana"></option>
-                    <option value="Haiti"></option>
-                    <option value="Honduras"></option>
-                    <option value="Hungary"></option>
-                    <option value="Iceland"></option>
-                    <option value="India"></option>
-                    <option value="Indonesia"></option>
-                    <option value="Iran"></option>
-                    <option value="Iraq"></option>
-                    <option value="Ireland"></option>
-                    <option value="Israel"></option>
-                    <option value="Italy"></option>
-                    <option value="Jamaica"></option>
-                    <option value="Japan"></option>
-                    <option value="Jordan"></option>
-                    <option value="Kazakhstan"></option>
-                    <option value="Kenya"></option>
-                    <option value="Kiribati"></option>
-                    <option value="Kuwait"></option>
-                    <option value="Kyrgyzstan"></option>
-                    <option value="Laos"></option>
-                    <option value="Latvia"></option>
-                    <option value="Lebanon"></option>
-                    <option value="Lesotho"></option>
-                    <option value="Liberia"></option>
-                    <option value="Libya"></option>
-                    <option value="Liechtenstein"></option>
-                    <option value="Lithuania"></option>
-                    <option value="Luxembourg"></option>
-                    <option value="Madagascar"></option>
-                    <option value="Malawi"></option>
-                    <option value="Malaysia"></option>
-                    <option value="Maldives"></option>
-                    <option value="Mali"></option>
-                    <option value="Malta"></option>
-                    <option value="Marshall Islands"></option>
-                    <option value="Mauritania"></option>
-                    <option value="Mauritius"></option>
-                    <option value="Mexico"></option>
-                    <option value="Micronesia"></option>
-                    <option value="Moldova"></option>
-                    <option value="Monaco"></option>
-                    <option value="Mongolia"></option>
-                    <option value="Montenegro"></option>
-                    <option value="Morocco"></option>
-                    <option value="Mozambique"></option>
-                    <option value="Myanmar"></option>
-                    <option value="Namibia"></option>
-                    <option value="Nauru"></option>
-                    <option value="Nepal"></option>
-                    <option value="Netherlands"></option>
-                    <option value="New Zealand"></option>
-                    <option value="Nicaragua"></option>
-                    <option value="Niger"></option>
-                    <option value="Nigeria"></option>
-                    <option value="North Macedonia"></option>
-                    <option value="Norway"></option>
-                    <option value="Oman"></option>
-                    <option value="Pakistan"></option>
-                    <option value="Palau"></option>
-                    <option value="Palestine"></option>
-                    <option value="Panama"></option>
-                    <option value="Papua New Guinea"></option>
-                    <option value="Paraguay"></option>
-                    <option value="Peru"></option>
-                    <option value="Philippines"></option>
-                    <option value="Poland"></option>
-                    <option value="Portugal"></option>
-                    <option value="Qatar"></option>
-                    <option value="Romania"></option>
-                    <option value="Russia"></option>
-                    <option value="Rwanda"></option>
-                    <option value="Saint Kitts and Nevis"></option>
-                    <option value="Saint Lucia"></option>
-                    <option value="Saint Vincent and the Grenadines"></option>
-                    <option value="Samoa"></option>
-                    <option value="San Marino"></option>
-                    <option value="Sao Tome and Principe"></option>
-                    <option value="Saudi Arabia"></option>
-                    <option value="Senegal"></option>
-                    <option value="Serbia"></option>
-                    <option value="Seychelles"></option>
-                    <option value="Sierra Leone"></option>
-                    <option value="Singapore"></option>
-                    <option value="Slovakia"></option>
-                    <option value="Slovenia"></option>
-                    <option value="Solomon Islands"></option>
-                    <option value="Somalia"></option>
-                    <option value="South Africa"></option>
-                    <option value="South Korea"></option>
-                    <option value="South Sudan"></option>
-                    <option value="Spain"></option>
-                    <option value="Sri Lanka"></option>
-                    <option value="Sudan"></option>
-                    <option value="Suriname"></option>
-                    <option value="Sweden"></option>
-                    <option value="Switzerland"></option>
-                    <option value="Syria"></option>
-                    <option value="Taiwan"></option>
-                    <option value="Tajikistan"></option>
-                    <option value="Tanzania"></option>
-                    <option value="Thailand"></option>
-                    <option value="Timor-Leste"></option>
-                    <option value="Togo"></option>
-                    <option value="Tonga"></option>
-                    <option value="Trinidad and Tobago"></option>
-                    <option value="Tunisia"></option>
-                    <option value="Turkey"></option>
-                    <option value="Turkmenistan"></option>
-                    <option value="Tuvalu"></option>
-                    <option value="Uganda"></option>
-                    <option value="Ukraine"></option>
-                    <option value="United Arab Emirates"></option>
-                    <option value="United Kingdom"></option>
-                    <option value="United States"></option>
-                    <option value="Uruguay"></option>
-                    <option value="Uzbekistan"></option>
-                    <option value="Vanuatu"></option>
-                    <option value="Vatican City"></option>
-                    <option value="Venezuela"></option>
-                    <option value="Vietnam"></option>
-                    <option value="Yemen"></option>
-                    <option value="Zambia"></option>
-                    <option value="Zimbabwe"></option>
-                </datalist>
-                </div>
-           </div>
-            <div class="BookingInfo">
-            <div class="column">
+							<optgroup label="Standard Rooms">
+								<option value="Single Room">Single Room</option>
+								<option value="Double Room">Double Room (for 2 people)</option>
+								<option value="Twin Room">Twin Room (2 separate beds)</option>
+							</optgroup>
 
-            <label for="check-in-date">Check-in Date:</label>
-            <input type="date" id="check-in-date" name="check-in-date" value="" required />
+							<optgroup label="Superior / Deluxe Rooms">
+								<option value="Superior Room">Superior Room</option>
+								<option value="Deluxe Room">Deluxe Room</option>
+							</optgroup>
 
-            <label for="check-out-date">Check-out Date:</label>
-            <input type="date" id="check-out-date" name="check-out-date" value="" required />
-            </div>
-            <div class="nights">
-            <label for="nightsNumber">Number of Nights : </label>
-            <input type="number" id="nightsNumber" name="NumberofNights" readonly placeholder="0"/>
-            </div>
-            <div class="NumberOfguests">
-               <label style="flex-wrap:nowrap">Number of Guests: </label>
-               <div class="column">
-                <label for="adults" >Adults</label>
-                <input type="number" id="adults" min="1" name="adults" value="" required placeholder="1" />
-                <label for="Childeren">Children</label>
-                <input type="number" id="Childeren" min="0" name="adults" value=""  placeholder="0"/>
-               </div>
-            </div>
-                <div class="row">
-                    <div class="room">
-                <label for="roomType">Type of Room:</label>
-                <select id="roomType" name="roomType" required>
+							<optgroup label="Suites">
+								<option value="Junior Suite">Junior Suite</option>
+								<option value="Executive Suite">Executive Suite</option>
+								<option value="Presidential Suite">Presidential Suite</option>
+							</optgroup>
 
-                    <optgroup label="Standard Rooms">
-                        <option value="Single Room">Single Room</option>
-                        <option value="Double Room">Double Room (for 2 people)</option>
-                        <option value="Twin Room">Twin Room (2 separate beds)</option>
-                    </optgroup>
+							<optgroup label="Special View Rooms">
+								<option value="Sea View Room">Sea View Room</option>
+								<option value="City View Room">City View Room</option>
+								<option value="Garden View Room">Garden View Room</option>
+								<option value="Poolside Room">Poolside Room</option>
+							</optgroup>
 
-                    <optgroup label="Superior / Deluxe Rooms">
-                        <option value="Superior Room">Superior Room</option>
-                        <option value="Deluxe Room">Deluxe Room</option>
-                    </optgroup>
+							<optgroup label="Family & Group Rooms">
+								<option value="Triple Room">Triple Room</option>
+								<option value="Family Suite">Family Suite (for 4+ people)</option>
+								<option value="Connecting Rooms">Connecting Rooms</option>
+							</optgroup>
 
-                    <optgroup label="Suites">
-                        <option value="Junior Suite">Junior Suite</option>
-                        <option value="Executive Suite">Executive Suite</option>
-                        <option value="Presidential Suite">Presidential Suite</option>
-                    </optgroup>
+							<optgroup label="Special Experience Rooms">
+								<option value="Honeymoon Suite">Honeymoon Suite</option>
+								<option value="Accessible Room">Accessible Room (for guests with disabilities)</option>
+								<option value="Pet-Friendly Room">Pet-Friendly Room</option>
+							</optgroup>
 
-                    <optgroup label="Special View Rooms">
-                        <option value="Sea View Room">Sea View Room</option>
-                        <option value="City View Room">City View Room</option>
-                        <option value="Garden View Room">Garden View Room</option>
-                        <option value="Poolside Room">Poolside Room</option>
-                    </optgroup>
+						</select>
+					</div>
+					<div class="room">
+						<label for="NumberOfRooms">Number of Rooms</label>
+						<input type="number" id="NumberOfRooms" min="1" name="Number Of Rooms" value="" placeholder="0" />
+					</div>
+				</div>
+				<label>Additional Services:</label>
 
-                    <optgroup label="Family & Group Rooms">
-                        <option value="Triple Room">Triple Room</option>
-                        <option value="Family Suite">Family Suite (for 4+ people)</option>
-                        <option value="Connecting Rooms">Connecting Rooms</option>
-                    </optgroup>
+				<div class="services">
+					<div class="column2">
+						<label><input type="checkbox" id="extraBed" name="services" value="Extra Bed"> Extra Bed</label>
+						<label><input type="checkbox" id="breakfast" name="services" value="Breakfast in Room"> Breakfast in Room</label>
+						<label><input type="checkbox" id="airportPickup" name="services" value="Airport Pickup"> Airport Pickup</label>
+						<label><input type="checkbox" id="decoration" name="services" value="Decoration"> Special Decoration (Flowers / Cake)</label>
+					</div>
+					<div class="other-services">
+						<label for="otherServices">Other Requests:</label>
 
-                    <optgroup label="Special Experience Rooms">
-                        <option value="Honeymoon Suite">Honeymoon Suite</option>
-                        <option value="Accessible Room">Accessible Room (for guests with disabilities)</option>
-                        <option value="Pet-Friendly Room">Pet-Friendly Room</option>
-                    </optgroup>
+						<textarea id="otherServices" name="otherServices" rows="10" cols="40" placeholder="Write your request here..."></textarea>
+					</div>
+				</div>
+				<div class="payment">
+					<label>Payment Method:</label>
+					<div class="payment-options">
+						<label><input type="radio" id="creditCard" name="payment" value="Credit Card"> Credit Card</label>
+						<label><input type="radio" id="debitCard" name="payment" value="Debit Card"> Debit Card</label>
+						<label><input type="radio" id="cash" name="payment" value="Cash"> Cash (on arrival)</label>
+						<label><input type="radio" id="bankTransfer" name="payment" value="Bank Transfer"> Bank Transfer</label>
+						<label><input type="radio" id="paypal" name="payment" value="PayPal"> PayPal</label>
+						<label><input type="radio" id="applePay" name="payment" value="Apple Pay"> Apple Pay</label>
+					</div>
+				</div>
 
-                </select>
-                    </div>
-                    <div class="room">
-                <label for="NumberOfRooms" >Number of Rooms</label>
-               <input type="number" id="NumberOfRooms" min="1" name="Number Of Rooms" value="" placeholder="0"/>
-                   </div>
-                </div>
-            <label>Additional Services:</label>
-
-                <div class="services">
-                    <div class="column2">
-                        <label><input type="checkbox" id="extraBed" name="services" value="Extra Bed"> Extra Bed</label>
-                        <label><input type="checkbox" id="breakfast" name="services" value="Breakfast in Room"> Breakfast in Room</label>
-                        <label><input type="checkbox" id="airportPickup" name="services" value="Airport Pickup"> Airport Pickup</label>
-                        <label><input type="checkbox" id="decoration" name="services" value="Decoration"> Special Decoration (Flowers / Cake)</label>
-                    </div>
-                    <div class="other-services">
-            <label for="otherServices">Other Requests:</label>
-
-          <textarea id="otherServices" name="otherServices" rows="10" cols="40" placeholder="Write your request here..."></textarea>
-                </div>
-                </div>
-                <div class="payment">
-                    <label>Payment Method:</label>
-                    <div class="payment-options">
-                        <label><input type="radio" id="creditCard" name="payment" value="Credit Card"> Credit Card</label>
-                        <label><input type="radio" id="debitCard" name="payment" value="Debit Card"> Debit Card</label>
-                        <label><input type="radio" id="cash" name="payment" value="Cash"> Cash (on arrival)</label>
-                        <label><input type="radio" id="bankTransfer" name="payment" value="Bank Transfer"> Bank Transfer</label>
-                        <label><input type="radio" id="paypal" name="payment" value="PayPal"> PayPal</label>
-                        <label><input type="radio" id="applePay" name="payment" value="Apple Pay"> Apple Pay</label>
-                    </div>
-                </div>
-
-
-
-            <div class="terms">
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I agree to the <a href="/Home/terms_and_conditions" target="_blank">Terms & Conditions</a></label>
-            </div>
-        <button type="button" class="btn">Book Now</button>
-
-    </form>
-    </div>
+				<div class="terms">
+					<input type="checkbox" id="terms" name="terms" required>
+					<label for="terms">I agree to the <a href="/Home/terms_and_conditions" target="_blank">Terms & Conditions</a></label>
+				</div>
+				<button type="button" class="btn">Book Now</button>
+			</div>
+		</form>
+	</div>
 </div>
 

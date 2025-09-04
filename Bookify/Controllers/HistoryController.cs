@@ -13,7 +13,8 @@ namespace Bookify.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+
+        public IActionResult History()
         {
             var reservation = _context.Reservations
                 .Include(r => r.Room)
