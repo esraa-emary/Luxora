@@ -1,0 +1,61 @@
+﻿@model Bookify.Models.Payment;
+<link href="~/css/payment.css" rel="stylesheet" />
+<section class="hotel-payment">
+    <h2>🏨 Secure Hotel Payment</h2>
+    <div class="hotel-card-preview" id="hotelCardPreview">
+        <div class="hotel-card-inner" id="hotelCardInner">
+            <div class="hotel-card-face hotel-card-front">
+                <div class="hotel-card-chip"></div>
+                <p class="hotel-card-number" id="hotelPreviewNumber">**** **** **** ****</p>
+                <div class="hotel-card-footer">
+                    <span id="hotelPreviewName">GUEST NAME</span>
+                    <span id="hotelPreviewExpiry">MM/YY</span>
+                </div>
+            </div>
+            <div class="hotel-card-face hotel-card-back">
+                <div class="hotel-mag-strip"></div>
+                <div class="hotel-cvv-row">
+                    <span class="hotel-cvv-label">CVV</span>
+                    <span class="hotel-cvv-box" id="hotelPreviewCvv">***</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form asp-action="Payment" method="post" class="hotel-payment-form" id="hotelPaymentForm">
+        <div class="hotel-summary">
+            <h3>Room: @Model.RoomType</h3>
+            <p><strong>Total:</strong> $<span>@Model.TotalAmount</span></p>
+        </div>
+
+        <div class="hotel-input-group">
+            <label asp-for="GuestName"></label>
+            <input asp-for="GuestName" id="guestName" placeholder="John Doe" />
+            <span asp-validation-for="GuestName" class="text-danger"></span>
+        </div>
+
+        <div class="hotel-input-group">
+            <label asp-for="CardNumber"></label>
+            <input asp-for="CardNumber" id="cardNum" maxlength="19" placeholder="1234 5678 9012 3456" />
+            <span asp-validation-for="CardNumber" class="text-danger"></span>
+        </div>
+
+        <div class="hotel-row">
+            <div class="hotel-input-group">
+                <label asp-for="ExpiryDate"></label>
+                <input asp-for="ExpiryDate" id="expiryDate" maxlength="5" placeholder="MM/YY" />
+                <span asp-validation-for="ExpiryDate" class="text-danger"></span>
+            </div>
+            <div class="hotel-input-group">
+                <label asp-for="CVV"></label>
+                <input asp-for="CVV" id="cardCvv" maxlength="4" placeholder="123" />
+                <span asp-validation-for="CVV" class="text-danger"></span>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-hotel-pay">💳 Pay & Confirm Booking</button>
+    </form>
+</section>
+
+@section Scripts {
+    <script src="~/js/Payment.js"></script>
+}

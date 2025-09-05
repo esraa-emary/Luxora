@@ -1,0 +1,221 @@
+﻿body {
+}
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.hotel-payment {
+    padding: 80px 25px;
+    background: linear-gradient(160deg, var(--sixth-color), #2a1816, var(--fifth-color));
+    color: var(--first-color);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+    .hotel-payment::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at top left, rgba(255, 224, 178, 0.15), transparent 70%), radial-gradient(circle at bottom right, rgba(211, 163, 118, 0.1), transparent 70%);
+        pointer-events: none;
+    }
+
+    .hotel-payment h2 {
+        font-size: 2.8rem;
+        margin-bottom: 40px;
+        color: var(--third-color);
+        letter-spacing: 2px;
+        text-shadow: 0 0 16px rgba(255, 224, 178, 0.6), 0 0 26px rgba(211, 163, 118, 0.4);
+    }
+
+.hotel-card-preview {
+    width: 360px;
+    height: 210px;
+    margin: 0 auto 35px;
+    perspective: 1200px;
+    animation: floatCard 5s ease-in-out infinite;
+}
+
+.hotel-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(.4, .2, .2, 1);
+    border-radius: 20px;
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.45);
+}
+
+.hotel-card-preview.active {
+    transform: translateY(-6px) rotateX(8deg) rotateY(10deg);
+}
+
+.hotel-card-preview.show-back .hotel-card-inner {
+    transform: rotateY(180deg);
+}
+
+.hotel-card-face {
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card Front */
+.hotel-card-front {
+    background: linear-gradient(135deg, var(--fifth-color), var(--sixth-color));
+    color: var(--first-color);
+}
+
+/* Card Back */
+.hotel-card-back {
+    transform: rotateY(180deg);
+    background: linear-gradient(135deg, var(--fifth-color), var(--sixth-color));
+    color: var(--second-color);
+}
+
+.hotel-card-chip {
+    width: 55px;
+    height: 38px;
+    background: linear-gradient(135deg, var(--third-color), var(--fourth-color));
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(255, 224, 178, 0.8);
+}
+
+.hotel-card-number {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: "Courier New", monospace;
+}
+
+.hotel-card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.hotel-mag-strip {
+    height: 44px;
+    background: var(--sixth-color);
+    margin: 12px -25px;
+}
+
+.hotel-cvv-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.hotel-cvv-box {
+    min-width: 70px;
+    padding: 6px 10px;
+    background: var(--second-color);
+    color: #222;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    box-shadow: 0 0 6px rgba(255, 242, 223, 0.5);
+}
+
+@keyframes floatCard {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.hotel-payment-form {
+    max-width: 450px;
+    margin: 0 auto;
+    background: rgba(255, 242, 223, 0.05);
+    padding: 35px;
+    border-radius: 20px;
+    text-align: left;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+}
+
+.hotel-summary {
+    background: rgba(255, 224, 178, 0.12);
+    border: 1px solid rgba(211, 163, 118, 0.5);
+    padding: 18px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+}
+
+    .hotel-summary h3 {
+        margin-bottom: 10px;
+        color: var(--third-color);
+        text-shadow: 0 0 10px rgba(255, 224, 178, 0.6);
+    }
+
+.hotel-input-group {
+    margin-bottom: 20px;
+}
+
+.hotel-payment-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--second-color);
+}
+
+.hotel-payment-form input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: var(--fifth-color);
+    color: var(--first-color);
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+    .hotel-payment-form input:focus {
+        border: 1px solid var(--third-color);
+        background: var(--fourth-color);
+        box-shadow: 0 0 12px rgba(255, 224, 178, 0.7);
+    }
+
+.hotel-row {
+    display: flex;
+    gap: 35px;
+}
+
+    .hotel-row .hotel-input-group {
+        flex: 1;
+    }
+
+.btn-hotel-pay {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--third-color), var(--second-color), var(--fourth-color));
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 18px rgba(211, 163, 118, 0.4);
+}
+
+    .btn-hotel-pay:hover {
+        transform: translateY(-4px) scale(1.05);
+        box-shadow: 0 8px 22px rgba(211, 163, 118, 0.6);
+    }

@@ -1,3 +1,4 @@
+wwwroot\css\rooms.css
 wwwroot\css\site.css
 wwwroot\icon.png
 wwwroot\img\index-contact\img.jpg
@@ -75,4 +76,5 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\rooms.css
+wwwroot\css\Payment.css
+wwwroot\js\Payment.js

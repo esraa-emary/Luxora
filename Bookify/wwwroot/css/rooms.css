@@ -45,6 +45,14 @@
     color: #8c6e63;
     letter-spacing: 1.5px;
 }
+.rooms-title h2 {
+    font-size: 3.6rem;
+    margin: 0;
+    background: linear-gradient(90deg, #3e2522, #d4af37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
 
 .rooms-grid {
     display: grid;
