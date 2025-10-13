@@ -1,10 +1,11 @@
 wwwroot\css\changepassword.css
+wwwroot\css\edit.css
 wwwroot\css\home.css
 wwwroot\css\login.css
+wwwroot\css\logout.css
 wwwroot\css\makeorder.css
 wwwroot\css\Payment.css
 wwwroot\css\profile.css
-wwwroot\css\rooms.css
 wwwroot\css\site.css
 wwwroot\css\terms.css
 wwwroot\img\icon.png
@@ -37,7 +38,6 @@ wwwroot\js\makeorder.js
 wwwroot\js\Payment.js
 wwwroot\js\profile.js
 wwwroot\js\rooms.js
-wwwroot\js\site.js
 wwwroot\js\terms.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -100,5 +100,7 @@ wwwroot\Videos\a.mp4
 wwwroot\Videos\adv.mp4
 wwwroot\Videos\com.mp4
 wwwroot\Videos\ele.mp4
-wwwroot\css\edit.css
-wwwroot\css\logout.css
+wwwroot\css\layout.css
+wwwroot\css\rooms.css
+wwwroot\js\layout.js
+wwwroot\js\site.js

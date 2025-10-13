@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\rooms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\css\\rooms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\rooms.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\rooms.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\logout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\css\\logout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\changepassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\css\\changepassword.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\terms.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -51,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\changepassword.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\rooms\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\rooms\\terms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -67,20 +95,12 @@
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\terms.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\terms.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\profile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -93,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|solutionrelative:wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B14554EA-D1A1-41F0-BF9C-0DD058509571}|Bookify.csproj|c:\\users\\dell\\documents\\bookify\\bookify\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -126,37 +142,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Logout.cshtml",
-              "RelativeToolTip": "Views\\Profile\\Logout.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T15:48:51.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "logout.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\logout.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\logout.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\logout.js",
-              "RelativeToolTip": "wwwroot\\js\\logout.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-19T15:48:24.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Rooms\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Rooms\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T15:43:29.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rooms.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\rooms.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\rooms.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\rooms.js",
+              "RelativeToolTip": "wwwroot\\js\\rooms.js",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAJkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-13T15:44:45.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rooms.css",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\rooms.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\rooms.css",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\rooms.css",
+              "RelativeToolTip": "wwwroot\\css\\rooms.css",
+              "ViewState": "AgIAABoBAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-13T15:44:32.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:34:18.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "logout.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\logout.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\logout.css",
@@ -169,59 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "edit.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\edit.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\edit.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\edit.js",
-              "RelativeToolTip": "wwwroot\\js\\edit.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-19T15:42:52.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "edit.css",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\edit.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\edit.css",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\edit.css",
-              "RelativeToolTip": "wwwroot\\css\\edit.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-19T15:42:43.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Profile\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T15:42:26.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "changepassword.css",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\changepassword.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\changepassword.css",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\changepassword.css",
-              "RelativeToolTip": "wwwroot\\css\\changepassword.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-19T15:31:04.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Payment.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\Payment.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Payment.css",
@@ -229,12 +219,11 @@
               "RelativeToolTip": "wwwroot\\css\\Payment.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-19T15:07:44.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T15:07:44.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "terms.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\terms.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\terms.css",
@@ -242,90 +231,24 @@
               "RelativeToolTip": "wwwroot\\css\\terms.css",
               "ViewState": "AgIAAEEBAAAAAAAAAAAAAKsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-17T19:53:45.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T19:53:45.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-13T07:30:25.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Profile\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeToolTip": "Views\\Profile\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-19T15:30:36.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "changepassword.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\changepassword.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\changepassword.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\changepassword.js",
-              "RelativeToolTip": "wwwroot\\js\\changepassword.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-19T15:32:13.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAoCAAAAAAAAAAAAAOkBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-13T07:59:06.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "terms.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\terms.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\terms.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\terms.js",
-              "RelativeToolTip": "wwwroot\\js\\terms.js",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-17T19:54:22.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T18:43:32.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "index.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Home\\index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\index.cshtml",
@@ -338,7 +261,166 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "home.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\home.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\home.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\home.js",
+              "RelativeToolTip": "wwwroot\\js\\home.js",
+              "ViewState": "AgIAADMEAAAAAAAAAAAAAEIEAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-13T08:05:15.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwN4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-13T07:59:06.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACUCAAAAAAAAAAAAAIQBAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-14T19:21:13.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "changepassword.css",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\changepassword.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\changepassword.css",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\changepassword.css",
+              "RelativeToolTip": "wwwroot\\css\\changepassword.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-19T15:31:04.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T15:42:26.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "edit.css",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\edit.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\edit.css",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\edit.css",
+              "RelativeToolTip": "wwwroot\\css\\edit.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-19T15:42:43.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "edit.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\edit.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\edit.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\edit.js",
+              "RelativeToolTip": "wwwroot\\js\\edit.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T15:42:52.984Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "logout.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\logout.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\logout.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\logout.js",
+              "RelativeToolTip": "wwwroot\\js\\logout.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T15:48:24.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Logout.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Logout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T15:48:51.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T15:30:36.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "changepassword.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\changepassword.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\changepassword.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\changepassword.js",
+              "RelativeToolTip": "wwwroot\\js\\changepassword.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T15:32:13.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "terms.js",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\terms.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\terms.js",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\terms.js",
+              "RelativeToolTip": "wwwroot\\js\\terms.js",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-17T19:54:22.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T18:43:32.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
@@ -346,12 +428,11 @@
               "RelativeToolTip": "Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-16T08:05:45.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T08:05:45.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "profile.js",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\profile.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\profile.js",
@@ -359,12 +440,11 @@
               "RelativeToolTip": "wwwroot\\js\\profile.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-16T08:08:37.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T08:08:37.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "MakeOrder.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Rooms\\MakeOrder.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\MakeOrder.cshtml",
@@ -372,12 +452,11 @@
               "RelativeToolTip": "Views\\Rooms\\MakeOrder.cshtml",
               "ViewState": "AgIAAIgAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T11:27:23.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T11:27:23.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Terms.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Rooms\\Terms.cshtml",
               "RelativeDocumentMoniker": "Views\\Rooms\\Terms.cshtml",
@@ -385,25 +464,11 @@
               "RelativeToolTip": "Views\\Rooms\\Terms.cshtml",
               "ViewState": "AgIAAPQAAAAAAAAAAAAAAAIBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T19:35:02.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T19:35:02.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEMCAAAAAAAAAAAAACsCAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-14T19:21:13.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "makeorder.js",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\makeorder.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\makeorder.js",
@@ -411,12 +476,11 @@
               "RelativeToolTip": "wwwroot\\js\\makeorder.js",
               "ViewState": "AgIAAG4BAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-17T11:48:03.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T11:48:03.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "login.js",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\login.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\login.js",
@@ -424,25 +488,11 @@
               "RelativeToolTip": "wwwroot\\js\\login.js",
               "ViewState": "AgIAAEkBAAAAAAAAAAAAAD4BAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-17T18:44:17.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:44:17.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "home.js",
-              "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\home.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\home.js",
-              "ToolTip": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\js\\home.js",
-              "RelativeToolTip": "wwwroot\\js\\home.js",
-              "ViewState": "AgIAADMEAAAAAAAAAAAAAM8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-09-13T08:05:15.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "profile.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\profile.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\profile.css",
@@ -450,12 +500,11 @@
               "RelativeToolTip": "wwwroot\\css\\profile.css",
               "ViewState": "AgIAAB0FAAAAAAAAAAAAACcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-16T08:08:23.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-16T08:08:23.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "makeorder.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\makeorder.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\makeorder.css",
@@ -463,12 +512,11 @@
               "RelativeToolTip": "wwwroot\\css\\makeorder.css",
               "ViewState": "AgIAAP8CAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-17T11:45:37.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T11:45:37.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\login.css",
@@ -476,12 +524,11 @@
               "RelativeToolTip": "wwwroot\\css\\login.css",
               "ViewState": "AgIAADQDAAAAAAAAAAAAACwDAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-17T18:43:00.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T18:43:00.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "home.css",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\home.css",
@@ -489,12 +536,11 @@
               "RelativeToolTip": "wwwroot\\css\\home.css",
               "ViewState": "AgIAAPkEAAAAAAAAAAAAAEgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-13T08:03:33.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T08:03:33.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Payment.cshtml",
               "DocumentMoniker": "C:\\Users\\dell\\Documents\\bookify\\Bookify\\Views\\payment\\Payment.cshtml",
               "RelativeDocumentMoniker": "Views\\payment\\Payment.cshtml",

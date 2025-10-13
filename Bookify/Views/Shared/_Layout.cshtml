@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@ViewData["Title"] - Luxora</title>
-        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
         <link href="~/img/icon.png" rel="icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -36,14 +36,14 @@
                     <div class="nav-content" id="navbarContent">
                         <ul class="nav-menu">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a asp-controller="Home" asp-action="Index" class="nav-link">
                                     <i class="fas fa-home"></i>
                                     <span>Home</span>
                                 </a>
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle">
+                                <a asp-controller="Rooms" asp-action="Index" class="nav-link dropdown-toggle">
                                     <i class="fas fa-bed"></i>
                                     <span>Rooms</span>
                                     <i class="fas fa-chevron-down dropdown-arrow"></i>
@@ -127,7 +127,7 @@
                             </li>
 
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle">
+                                <a asp-controller="Profile" asp-action="Index" class="nav-link dropdown-toggle">
                                     <i class="fas fa-user"></i>
                                     <span>Profile</span>
                                     <i class="fas fa-chevron-down dropdown-arrow"></i>
@@ -351,13 +351,13 @@
                         <h4>Quick Links</h4>
                         <ul class="footer-links">
                             <li>
-                                <a href="#">
+                                <a asp-controller="Home" asp-action="Index">
                                     <i class="fas fa-home"></i>
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a asp-controller="Rooms" asp-action="Index">
                                     <i class="fas fa-bed"></i>
                                     <span>Rooms & Suites</span>
                                 </a>
@@ -580,7 +580,8 @@
     </footer>
 
 
-        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/layout.js" asp-append-version="true"></script>
         @await RenderSectionAsync("Scripts", required: false)
     </body>
+
 </html>
