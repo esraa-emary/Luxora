@@ -8,6 +8,7 @@
         <link href="~/img/icon.png" rel="icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <section class="hero">
     </head>
 
@@ -554,34 +555,61 @@
         <button class="back-to-top" id="backToTop">
             <i class="fas fa-chevron-up"></i>
         </button>
-        <div class="floating-contact">
-            <button class="floating-btn" id="contactToggle">
-                <i class="fas fa-headset"></i>
+        <div class="contact-panel" id="contactPanel">
+            <button class="contact-panel-toggle" id="panelToggle">
+                <i class="fas fa-plus"></i>
             </button>
-            <div class="floating-menu" id="floatingMenu">
-                <a href="tel:+20123456789" class="floating-item">
+            <div class="contact-panel-menu">
+                <a href="tel:+20123456789" class="contact-panel-btn phone-btn" data-label="Call Us">
                     <i class="fas fa-phone"></i>
-                    <span>Call Us</span>
                 </a>
-                <a href="mailto:info@luxora.com" class="floating-item">
+                <a href="mailto:info@luxora.com" class="contact-panel-btn email-btn" data-label="Email">
                     <i class="fas fa-envelope"></i>
-                    <span>Email</span>
                 </a>
-                <a href="#" class="floating-item">
+                <a href="https://wa.me/20123456789" class="contact-panel-btn whatsapp-btn" data-label="WhatsApp">
                     <i class="fab fa-whatsapp"></i>
-                    <span>WhatsApp</span>
                 </a>
-                <a href="#" class="floating-item">
+                <a href="#" class="contact-panel-btn chat-btn" data-label="Live Chat">
                     <i class="fas fa-comments"></i>
-                    <span>Live Chat</span>
                 </a>
             </div>
         </div>
     </footer>
 
-
+    @section scripts{
+        <script src="~/js/layout.js"></script>
+    }
         <script src="~/js/layout.js" asp-append-version="true"></script>
         @await RenderSectionAsync("Scripts", required: false)
     </body>
+    <script>
+            const panel = document.getElementById('contactPanel');
+    const panelToggle = document.getElementById('panelToggle');
+
+    if (panelToggle && panel) {
+        panelToggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            panel.classList.toggle('open');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', function (e) {
+            if (!panel.contains(e.target)) {
+                panel.classList.remove('open');
+            }
+        });
+
+        // Prevent menu items from closing the panel
+        const menuItems = panel.querySelectorAll('.contact-panel-btn');
+        menuItems.forEach(item => {
+            item.addEventListener('click', function (e) {
+                e.stopPropagation();
+            });
+        });
+    }
+
+    console.log('✅ All contact widgets loaded successfully!');
+
+    </script>
 
 </html>
