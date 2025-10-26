@@ -8,6 +8,21 @@
   outline: none;
   font-family: "Poppins", sans-serif;
 }
+
+/* Admin Panel Button */
+.auth-btn2.admin-btn {
+    background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.auth-btn2.admin-btn:hover {
+    background: linear-gradient(135deg, #4338ca 0%, #4f46e5 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+}
+
 body {
     background: linear-gradient(135deg, #FFF9F0 0%, #FFEDD8 100%);
 }

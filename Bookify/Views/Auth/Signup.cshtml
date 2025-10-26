@@ -1,6 +1,10 @@
 @{
-    ViewData["Title"] = "Sign Up - Bookify";
+    ViewData["Title"] = "Sign Up - Luxora";
 }
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="~/css/login.css" rel="stylesheet" />
 
 <div class="auth-container">
     <section class="auth-hero-section">
@@ -11,9 +15,17 @@
         <div class="auth-content center-center">
             <div class="auth-form-container">
                 <div class="auth-form-header center-center col">
-                    <h1>Join Bookify</h1>
+                    <h1>Join Luxora</h1>
                     <p>Create your account to start booking amazing stays</p>
                 </div>
+
+                @if (ViewBag.Error != null)
+                {
+                    <div class="auth-alert auth-alert-error">
+                        <i class="fas fa-exclamation-circle"></i>
+                        @ViewBag.Error
+                    </div>
+                }
 
                 <form asp-controller="Auth" asp-action="Signup" method="post" class="auth-form center-center col">
                     <div class="auth-inputs">
@@ -29,18 +41,40 @@
                         </div>
 
                         <div class="auth-input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name" />
+                        </div>
+
+                        <div class="auth-input-row">
+                            <div class="auth-input-group">
+                                <label for="ssn">SSN</label>
+                                <input type="text" id="ssn" name="ssn" required placeholder="Enter your SSN" />
+                            </div>
+                            <div class="auth-input-group">
+                                <label for="age">Age</label>
+                                <input type="number" id="age" name="age" required placeholder="Enter your age" min="18" />
+                            </div>
+                        </div>
+
+                        <div class="auth-input-group">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" name="address" required placeholder="Enter your address" />
+                        </div>
+
+                        <div class="auth-input-group">
                             <label for="email">Email Address</label>
                             <input type="email" id="email" name="email" required placeholder="Enter your email" />
                         </div>
 
-                        <div class="auth-input-group">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password" required placeholder="Create a strong password" />
-                        </div>
-
-                        <div class="auth-input-group">
-                            <label for="confirmPassword">Confirm Password</label>
-                            <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password" />
+                        <div class="auth-input-row">
+                            <div class="auth-input-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required placeholder="Create a strong password" />
+                            </div>
+                            <div class="auth-input-group">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm your password" />
+                            </div>
                         </div>
 
                         <div class="auth-options center-between">

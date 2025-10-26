@@ -1,0 +1,101 @@
+@model IEnumerable<Bookify.DataAccessLayer.Entities.Customer>
+@{
+    ViewData["Title"] = "Manage Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/admin-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-hotel"></i>
+                <h2>Luxora Admin</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="@Url.Action("Index", "Admin")" class="nav-item">
+                    <i class="fas fa-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="@Url.Action("ManageRooms", "Admin")" class="nav-item">
+                    <i class="fas fa-door-open"></i>
+                    <span>Manage Rooms</span>
+                </a>
+                <a href="@Url.Action("ManageReservations", "Admin")" class="nav-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Reservations</span>
+                </a>
+                <a href="@Url.Action("ManageCustomers", "Admin")" class="nav-item active">
+                    <i class="fas fa-users"></i>
+                    <span>Customers</span>
+                </a>
+                <div class="nav-divider"></div>
+                <a href="@Url.Action("ViewAsUser", "Admin")" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>View as User</span>
+                </a>
+                <a href="@Url.Action("Logout", "Auth")" class="nav-item">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Top Bar -->
+            <div class="admin-topbar">
+                <h1>Manage Customers</h1>
+                <div class="admin-user">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Welcome, @ViewBag.UserName</span>
+                </div>
+            </div>
+
+            <!-- Customers Table -->
+            <div class="table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
+                            <th>Address</th>
+                            <th>Total Reservations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var customer in Model)
+                        {
+                            <tr>
+                                <td><strong>#@customer.CustomerId</strong></td>
+                                <td>@customer.Name</td>
+                                <td>@customer.Email</td>
+                                <td>@customer.Age</td>
+                                <td>@customer.Address</td>
+                                <td>
+                                    <span class="badge badge-primary">@customer.Reservations.Count</span>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+
+

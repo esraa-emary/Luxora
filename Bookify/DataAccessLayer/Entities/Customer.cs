@@ -31,13 +31,22 @@ namespace Bookify.DataAccessLayer.Entities
         [Required]
         public int Age { get; set; }
 
-        [Required]
-        [StringLength(200)]
-        public string Address { get; set; } = string.Empty;
+    [Required]
+    [StringLength(200)]
+    public string Address { get; set; } = string.Empty;
 
-        // Navigation properties
-        public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
-        public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
+    [Required]
+    [StringLength(100)]
+    [EmailAddress]
+    public string Email { get; set; } = string.Empty;
+
+    [Required]
+    [StringLength(255)]
+    public string PasswordHash { get; set; } = string.Empty;
+
+    // Navigation properties
+    public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
+    public virtual ICollection<Feedback> Feedbacks { get; set; } = new List<Feedback>();
     }
 }
 

@@ -1,0 +1,145 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/admin-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-hotel"></i>
+                <h2>Luxora Admin</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="@Url.Action("Index", "Admin")" class="nav-item active">
+                    <i class="fas fa-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="@Url.Action("ManageRooms", "Admin")" class="nav-item">
+                    <i class="fas fa-door-open"></i>
+                    <span>Manage Rooms</span>
+                </a>
+                <a href="@Url.Action("ManageReservations", "Admin")" class="nav-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Reservations</span>
+                </a>
+                <a href="@Url.Action("ManageCustomers", "Admin")" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Customers</span>
+                </a>
+                <div class="nav-divider"></div>
+                <a href="@Url.Action("ViewAsUser", "Admin")" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>View as User</span>
+                </a>
+                <a href="@Url.Action("Logout", "Auth")" class="nav-item">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Top Bar -->
+            <div class="admin-topbar">
+                <h1>Dashboard Overview</h1>
+                <div class="admin-user">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Welcome, @ViewBag.UserName</span>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card stat-primary">
+                    <div class="stat-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>@ViewBag.TotalRooms</h3>
+                        <p>Total Rooms</p>
+                    </div>
+                </div>
+
+                <div class="stat-card stat-success">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>@ViewBag.AvailableRooms</h3>
+                        <p>Available Rooms</p>
+                    </div>
+                </div>
+
+                <div class="stat-card stat-warning">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>@ViewBag.TotalReservations</h3>
+                        <p>Total Reservations</p>
+                    </div>
+                </div>
+
+                <div class="stat-card stat-info">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>@ViewBag.TotalCustomers</h3>
+                        <p>Total Customers</p>
+                    </div>
+                </div>
+
+                <div class="stat-card stat-revenue">
+                    <div class="stat-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="stat-details">
+                        <h3>$@ViewBag.TotalRevenue.ToString("N2")</h3>
+                        <p>Total Revenue</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <h2>Quick Actions</h2>
+                <div class="action-buttons">
+                    <a href="@Url.Action("AddRoom", "Admin")" class="action-btn btn-primary">
+                        <i class="fas fa-plus"></i>
+                        Add New Room
+                    </a>
+                    <a href="@Url.Action("ManageRooms", "Admin")" class="action-btn btn-secondary">
+                        <i class="fas fa-edit"></i>
+                        Manage Rooms
+                    </a>
+                    <a href="@Url.Action("ManageReservations", "Admin")" class="action-btn btn-info">
+                        <i class="fas fa-calendar"></i>
+                        View Reservations
+                    </a>
+                    <a href="@Url.Action("ViewAsUser", "Admin")" class="action-btn btn-success">
+                        <i class="fas fa-eye"></i>
+                        Switch to User View
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+
+

@@ -1,9 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Bookify.Models;
+using Bookify.DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
+
 namespace Bookify.Controllers
 {
     public class RoomsController : Controller
     {
+        private readonly BookifyDbContext _context;
+
+        public RoomsController(BookifyDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult MakeOrder()
         {
             return View();
@@ -14,19 +23,13 @@ namespace Bookify.Controllers
             return View();
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var rooms = new List<Room>
-            {
-                new Room { Id = 1, Name = "Deluxe Room", Description = "Elegant interiors with cozy comfort.", Perks = "🍽 Free Breakfast • 🌐 WiFi • 🛏 King Bed", Price = 120, Image = "/img/Rooms/a.jpg", Category = "family" },
-                new Room { Id = 2, Name = "Executive Suite", Description = "Private living area with panoramic views.", Perks = "✨ Spa Access • 🥂 Lounge • 🌇 City View", Price = 200, Image = "/img/Rooms/b.jpg", Category = "luxury" },
-                new Room { Id = 3, Name = "Standard Room", Description = "Affordable yet stylish comfort.", Perks = "🚖 Free Shuttle • ☕ Coffee • 🛋 Cozy Design", Price = 80, Image = "/img/Rooms/c.jpg", Category = "standard" },
-                new Room { Id = 4, Name = "Presidential Suite", Description = "Luxury suite with VIP amenities.", Perks = "🥂 Private Bar • 🎬 Home Theater • 🌆 Skyline View", Price = 500, Image = "/img/Rooms/d.jpg", Category = "luxury" },
-                new Room { Id = 5, Name = "Family Room", Description = "Spacious room perfect for families.", Perks = "🛏 2 King Beds • 🧸 Kids Play Area • 🍳 Breakfast", Price = 180, Image = "/img/Rooms/e.jpg", Category = "family" },
-                new Room { Id = 6, Name = "Honeymoon Suite", Description = "Romantic retreat for couples.", Perks = "🌹 Candlelight Dinner • Jacuzzi • Scenic Balcony", Price = 350, Image = "/img/Rooms/f.jpg", Category = "luxury" }
-            };
-
-            HotelRooms.Rooms.AddRange(rooms);
+            var rooms = await _context.Rooms
+                .Include(r => r.RoomType)
+                .Where(r => r.Status == "Available")
+                .OrderBy(r => r.Price)
+                .ToListAsync();
 
             return View(rooms);
         }

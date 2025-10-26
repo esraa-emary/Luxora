@@ -122,37 +122,23 @@
             }
 
     async handleSubmit(event) {
-        event.preventDefault();
-
-    if (this.isLoading) return;
-
-    // Validate all fields
+    // Validate all fields before submission
     const isEmailValid = this.validateField('email');
     const isPasswordValid = this.validateField('password');
 
     if (!isEmailValid || !isPasswordValid) {
+        event.preventDefault();
         this.showNotification('Please correct the errors below', 'error');
-    return;
-                }
+        return;
+    }
 
-    this.setLoadingState(true);
-
-    try {
-        await this.simulateLogin();
+    // Save credentials if remember me is checked
     if (this.rememberMe.checked) {
         this.saveCredentials();
-                    }
+    }
 
-    this.showNotification('Login successful! Redirecting...', 'success');
-                    setTimeout(() => {
-        window.location.href = '/dashboard';
-                    }, 2000);
-                    
-                } catch (error) {
-        this.showNotification(error.message || 'Login failed. Please try again.', 'error');
-                } finally {
-        this.setLoadingState(false);
-                }
+    // Let the form submit normally to the server
+    // The AuthController will handle the login
             }
 
     async simulateLogin() {

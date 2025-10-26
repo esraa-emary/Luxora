@@ -27,6 +27,7 @@ namespace Bookify.DataAccessLayer
                 entity.HasKey(e => e.CustomerId);
                 entity.Property(e => e.CustomerId).ValueGeneratedOnAdd();
                 entity.HasIndex(e => e.SSN).IsUnique();
+                entity.HasIndex(e => e.Email).IsUnique();
             });
 
             // Configure RoomType entity
@@ -40,6 +41,7 @@ namespace Bookify.DataAccessLayer
             modelBuilder.Entity<Room>(entity =>
             {
                 entity.HasKey(e => e.RoomNumber);
+                entity.Property(e => e.RoomNumber).ValueGeneratedNever(); // Room number is manually set
                 entity.HasOne(e => e.RoomType)
                       .WithMany(rt => rt.Rooms)
                       .HasForeignKey(e => e.RoomTypeId)

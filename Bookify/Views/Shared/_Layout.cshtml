@@ -253,18 +253,32 @@
                     </div>
 
                     <div class="auth-buttons2">
-                        <button class="auth-btn2 login-btn" onclick="window.location.href='/Auth/Login'">
-                            <i class="fas fa-sign-in-alt"></i>
-                            <span>Login</span>
-                        </button>
-                        <button class="auth-btn2 signup-btn" onclick="window.location.href='/Auth/Signup'">
-                            <i class="fas fa-user-plus"></i>
-                            <span>Sign Up</span>
-                        </button>
-                        <button class="auth-btn2 logout-btn" onclick="window.location.href='/Profile/Logout'">
-                            <i class="fas fa-sign-out-alt"></i>
-                            <span>Logout</span>
-                        </button>
+                        @using Bookify.Helpers
+                        @if (SessionHelper.IsLoggedIn(Context.Session))
+                        {
+                            @if (SessionHelper.IsAdmin(Context.Session))
+                            {
+                                <button class="auth-btn2 admin-btn" onclick="window.location.href='/Admin/Index'" title="Admin Dashboard">
+                                    <i class="fas fa-user-shield"></i>
+                                    <span>Admin Panel</span>
+                                </button>
+                            }
+                            <button class="auth-btn2 logout-btn" onclick="window.location.href='/Auth/Logout'">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span>Logout</span>
+                            </button>
+                        }
+                        else
+                        {
+                            <button class="auth-btn2 login-btn" onclick="window.location.href='/Auth/Login'">
+                                <i class="fas fa-sign-in-alt"></i>
+                                <span>Login</span>
+                            </button>
+                            <button class="auth-btn2 signup-btn" onclick="window.location.href='/Auth/Signup'">
+                                <i class="fas fa-user-plus"></i>
+                                <span>Sign Up</span>
+                            </button>
+                        }
                     </div>
                 </div>
             </div>

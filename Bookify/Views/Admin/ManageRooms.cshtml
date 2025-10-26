@@ -1,0 +1,134 @@
+@model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
+@{
+    ViewData["Title"] = "Manage Rooms";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/admin-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-hotel"></i>
+                <h2>Luxora Admin</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="@Url.Action("Index", "Admin")" class="nav-item">
+                    <i class="fas fa-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="@Url.Action("ManageRooms", "Admin")" class="nav-item active">
+                    <i class="fas fa-door-open"></i>
+                    <span>Manage Rooms</span>
+                </a>
+                <a href="@Url.Action("ManageReservations", "Admin")" class="nav-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Reservations</span>
+                </a>
+                <a href="@Url.Action("ManageCustomers", "Admin")" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Customers</span>
+                </a>
+                <div class="nav-divider"></div>
+                <a href="@Url.Action("ViewAsUser", "Admin")" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>View as User</span>
+                </a>
+                <a href="@Url.Action("Logout", "Auth")" class="nav-item">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Top Bar -->
+            <div class="admin-topbar">
+                <h1>Manage Rooms</h1>
+                <div class="admin-user">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Welcome, @ViewBag.UserName</span>
+                </div>
+            </div>
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i>
+                    @TempData["Success"]
+                </div>
+            }
+
+            <!-- Action Bar -->
+            <div class="content-header">
+                <a href="@Url.Action("AddRoom", "Admin")" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Add New Room
+                </a>
+            </div>
+
+            <!-- Rooms Table -->
+            <div class="table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Room No.</th>
+                            <th>Description</th>
+                            <th>Type</th>
+                            <th>Status</th>
+                            <th>Price</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var room in Model)
+                        {
+                            <tr>
+                                <td><strong>#@room.RoomNumber</strong></td>
+                                <td>@room.Description</td>
+                                <td><span class="badge badge-info">@room.RoomType.TypeName</span></td>
+                                <td>
+                                    @if (room.Status == "Available")
+                                    {
+                                        <span class="badge badge-success">@room.Status</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-danger">@room.Status</span>
+                                    }
+                                </td>
+                                <td><strong>$@room.Price.ToString("N2")</strong></td>
+                                <td class="action-buttons-cell">
+                                    <a href="@Url.Action("EditRoom", "Admin", new { id = room.RoomNumber })" 
+                                       class="btn-icon btn-edit" title="Edit">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                    <button onclick="deleteRoom(@room.RoomNumber)" 
+                                            class="btn-icon btn-delete" title="Delete">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/admin-dashboard.js"></script>
+</body>
+</html>
+
+
+
+

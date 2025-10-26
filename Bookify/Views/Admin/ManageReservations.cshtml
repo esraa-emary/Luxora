@@ -1,0 +1,118 @@
+@model IEnumerable<Bookify.DataAccessLayer.Entities.Reservation>
+@{
+    ViewData["Title"] = "Manage Reservations";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/admin-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- Sidebar -->
+        <aside class="admin-sidebar">
+            <div class="sidebar-header">
+                <i class="fas fa-hotel"></i>
+                <h2>Luxora Admin</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="@Url.Action("Index", "Admin")" class="nav-item">
+                    <i class="fas fa-dashboard"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="@Url.Action("ManageRooms", "Admin")" class="nav-item">
+                    <i class="fas fa-door-open"></i>
+                    <span>Manage Rooms</span>
+                </a>
+                <a href="@Url.Action("ManageReservations", "Admin")" class="nav-item active">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Reservations</span>
+                </a>
+                <a href="@Url.Action("ManageCustomers", "Admin")" class="nav-item">
+                    <i class="fas fa-users"></i>
+                    <span>Customers</span>
+                </a>
+                <div class="nav-divider"></div>
+                <a href="@Url.Action("ViewAsUser", "Admin")" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>View as User</span>
+                </a>
+                <a href="@Url.Action("Logout", "Auth")" class="nav-item">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="admin-main">
+            <!-- Top Bar -->
+            <div class="admin-topbar">
+                <h1>Manage Reservations</h1>
+                <div class="admin-user">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Welcome, @ViewBag.UserName</span>
+                </div>
+            </div>
+
+            <!-- Reservations Table -->
+            <div class="table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Customer</th>
+                            <th>Room</th>
+                            <th>Check-In</th>
+                            <th>Check-Out</th>
+                            <th>Status</th>
+                            <th>Reservation Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var reservation in Model)
+                        {
+                            <tr>
+                                <td><strong>#@reservation.ReservationId</strong></td>
+                                <td>@reservation.Customer.Name</td>
+                                <td>
+                                    <span class="badge badge-info">
+                                        Room @reservation.RoomNumber - @reservation.Room.RoomType.TypeName
+                                    </span>
+                                </td>
+                                <td>@reservation.StartDate.ToString("MMM dd, yyyy")</td>
+                                <td>@reservation.EndDate.ToString("MMM dd, yyyy")</td>
+                                <td>
+                                    @if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Completed)
+                                    {
+                                        <span class="badge badge-success">Completed</span>
+                                    }
+                                    else if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Cancelled)
+                                    {
+                                        <span class="badge badge-danger">Cancelled</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-warning">Pending</span>
+                                    }
+                                </td>
+                                <td>@reservation.ReservationDate.ToString("MMM dd, yyyy")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+
+
