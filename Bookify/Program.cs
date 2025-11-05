@@ -12,11 +12,33 @@ namespace Bookify
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            // Add Entity Framework
-            builder.Services.AddDbContext<BookifyDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            // Configure Entity Framework with Azure AD authentication
+            // Uses Managed Identity when deployed, DefaultAzureCredential locally
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            
+            // Remove Authentication from connection string - we'll set token manually
+            var sqlBuilder = new Microsoft.Data.SqlClient.SqlConnectionStringBuilder(connectionString);
+            if (sqlBuilder.ContainsKey("Authentication"))
+            {
+                sqlBuilder.Remove("Authentication");
+            }
+            
+            builder.Services.AddSingleton<AzureSqlConnectionInterceptor>();
+            
+            builder.Services.AddDbContext<BookifyDbContext>((serviceProvider, options) =>
+            {
+                var interceptor = serviceProvider.GetRequiredService<AzureSqlConnectionInterceptor>();
+                
+                options.UseSqlServer(
+                    sqlBuilder.ConnectionString,
+                    sqlOptions => sqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 5,
+                        maxRetryDelay: TimeSpan.FromSeconds(30),
+                        errorNumbersToAdd: null));
+                
+                options.AddInterceptors(interceptor);
+            });
 
-            // Add Session support
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession(options =>
             {
@@ -27,7 +49,6 @@ namespace Bookify
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
