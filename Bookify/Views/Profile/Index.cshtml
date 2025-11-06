@@ -275,63 +275,52 @@
                     <button class="filter-btn" data-filter="cancelled">Cancelled</button>
                 </div>
             </div>
-            <div class="bookings-list">
-                <div class="booking-card upcoming">
-                    <div class="booking-image">
-                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Deluxe Suite">
-                        <div class="booking-status status-upcoming">Upcoming</div>
-                    </div>
-                    <div class="booking-details">
-                        <h4>Deluxe Suite with City View</h4>
-                        <div class="booking-info">
-                            <div class="info-row">
-                                <i class="fas fa-calendar"></i>
-                                <span>Dec 20, 2024 - Dec 25, 2024</span>
-                            </div>
-                            <div class="info-row">
-                                <i class="fas fa-users"></i>
-                                <span>2 Guests</span>
-                            </div>
-                            <div class="info-row">
-                                <i class="fas fa-credit-card"></i>
-                                <span>$1,250 Total</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="booking-actions">
-                        <button class="action-btn primary">Manage</button>
-                        <button class="action-btn secondary">Cancel</button>
-                    </div>
-                </div>
+           
+            @model IEnumerable<Bookify.DataAccessLayer.Entities.Reservation>
 
-                <div class="booking-card completed">
-                    <div class="booking-image">
-                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Presidential Suite">
-                        <div class="booking-status status-completed">Completed</div>
-                    </div>
-                    <div class="booking-details">
-                        <h4>Presidential Suite</h4>
-                        <div class="booking-info">
-                            <div class="info-row">
-                                <i class="fas fa-calendar"></i>
-                                <span>Nov 15, 2024 - Nov 20, 2024</span>
-                            </div>
-                            <div class="info-row">
-                                <i class="fas fa-users"></i>
-                                <span>2 Guests</span>
-                            </div>
-                            <div class="info-row">
-                                <i class="fas fa-credit-card"></i>
-                                <span>$2,100 Total</span>
+            <div class="bookings-list">
+                @foreach (var reservation in Model)
+                {
+                    <div class="booking-card @(reservation.Status.ToString().ToLower())">
+                        <div class="booking-image">
+                            @* <img src="@GetRoomImage(reservation.RoomNumber)" alt="Room @reservation.RoomNumber"> *@
+                            <div class="booking-status status-@(reservation.Status.ToString().ToLower())">
+                                @reservation.Status
                             </div>
                         </div>
+                        <div class="booking-details">
+                            <h4>Room @reservation.RoomNumber</h4>
+                            <div class="booking-info">
+                                <div class="info-row">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>@reservation.StartDate.ToString("MMM dd, yyyy") - @reservation.EndDate.ToString("MMM dd, yyyy")</span>
+                                </div>
+                                <div class="info-row">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span>Booked on: @reservation.ReservationDate.ToString("MMM dd, yyyy")</span>
+                                </div>
+                                <div class="info-row">
+                                    <i class="fas fa-credit-card"></i>
+                                    <span>@reservation.Price.ToString("C") Total</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking-actions">
+                            @if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Pending)
+                            {
+                                <button class="action-btn primary">Manage</button>
+                                <button class="action-btn secondary">Cancel</button>
+                            }
+                            else if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Completed)
+                            {
+                                <button class="action-btn primary">Review</button>
+                                <button class="action-btn secondary">Receipt</button>
+                            }
+                        </div>
                     </div>
-                    <div class="booking-actions">
-                        <button class="action-btn primary">Review</button>
-                        <button class="action-btn secondary">Receipt</button>
-                    </div>
-                </div>
+                }
             </div>
+
         </div>
         <div class="tab-content" id="reviews">
             <div class="reviews-header">
