@@ -19,7 +19,7 @@ namespace Bookify.Attributes
                 context.Result = new RedirectToActionResult("Index", "Home", null);
                 return;
             }
-
+            
             base.OnActionExecuting(context);
         }
     }

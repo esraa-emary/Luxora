@@ -16,6 +16,8 @@ namespace Bookify.DataAccessLayer
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -36,6 +38,16 @@ namespace Bookify.DataAccessLayer
                 entity.HasKey(e => e.RoomTypeId);
                 entity.Property(e => e.RoomTypeId).ValueGeneratedOnAdd();
             });
+            modelBuilder.Entity<CartItem>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.HasOne(e => e.Room)
+                      .WithMany(r => r.CartItems)
+                      .HasForeignKey(e => e.RoomNumber)
+                      .OnDelete(DeleteBehavior.Restrict);
+            });
+
 
             // Configure Room entity
             modelBuilder.Entity<Room>(entity =>

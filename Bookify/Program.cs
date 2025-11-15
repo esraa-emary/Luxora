@@ -1,4 +1,5 @@
 using Bookify.DataAccessLayer;
+using Bookify.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bookify
@@ -8,6 +9,8 @@ namespace Bookify
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddScoped<CartService>();
+
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

@@ -1,8 +1,10 @@
-﻿@model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
+﻿@using Bookify.DataAccessLayer.Entities
+@model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
+
 @{
     ViewBag.Title = "Rooms";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    
+
     // Serialize rooms data to JSON for JavaScript
     var roomsJson = System.Text.Json.JsonSerializer.Serialize(Model.Select(r => new {
         id = r.RoomNumber,
@@ -162,12 +164,15 @@
             </div>
             <div class="modal-actions">
                 <button class="btn-details" id="addToFavorites"><i class="far fa-heart"></i> Add to Favorites</button>
-                <button class="btn-book" id="modalBookBtn"><i class="fas fa-concierge-bell"></i> Book This Room</button>
-            </div>
+                <!-- Replace this line -->
+                <!-- Remove the onclick attribute and rely on the event listener -->
+                <button class="btn-book" id="modalBookBtn">
+                    <i class="fas fa-concierge-bell"></i> Book This Room
+                </button>
+                <!-- With this line (remove the server-side C# call from the onclick, as it does not work in Razor views for client-side events) -->
+                
         </div>
     </div>
-
-    <!-- Toast Notification -->
     <div class="toast" id="toast">
         <i class="fas fa-check-circle"></i>
         <span id="toastMessage">Room booked successfully!</span>
@@ -176,7 +181,6 @@
 
 @section Scripts {
     <script>
-        // Pass server-side data to JavaScript
         const serverRooms = @Html.Raw(roomsJson);
     </script>
     <script src="~/js/rooms.js"></script>

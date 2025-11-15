@@ -42,6 +42,8 @@ namespace Bookify.DataAccessLayer.Entities
         public string BedType { get; set; } = string.Empty;
         public string View { get; set; } = string.Empty;
         public string Amenities { get; set; } = string.Empty;
+        public ICollection<CartItem> CartItems { get; set; }
+
     }
 }
 

@@ -1,0 +1,165 @@
+﻿@model List<Bookify.DataAccessLayer.Entities.CartItem>
+
+@{
+    ViewBag.Title = "Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/css/cart.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="cart-container">
+    <div class="cart-header">
+        <div class="cart-title">
+            <h1><i class="fas fa-shopping-cart"></i> Your Shopping Cart</h1>
+            <p class="cart-subtitle">Review your selected rooms and proceed to checkout</p>
+        </div>
+        <div class="cart-stats">
+            <div class="stat-item">
+                <span class="stat-number">@Model.Count</span>
+                <span class="stat-label">Rooms</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">$@(Model.Sum(item => item.Room.Price))</span>
+                <span class="stat-label">Total</span>
+            </div>
+        </div>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="empty-cart">
+            <div class="empty-cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h2>Your cart is empty</h2>
+            <p>Looks like you haven't added any rooms to your cart yet.</p>
+            <a href="/Rooms" class="btn-primary">
+                <i class="fas fa-search"></i> Browse Rooms
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="cart-content">
+            <div class="cart-items">
+                @foreach (var item in Model)
+                {
+                    <div class="cart-item" data-room-id="@item.Id">
+                        <div class="item-image">
+                            <img src="@item.Room.ImageUrl" alt="Room @item.Room.RoomNumber"
+                                 onerror="this.src='https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'">
+                            <div class="item-badge">In Cart</div>
+                        </div>
+
+                        <div class="item-details">
+                            <div class="item-header">
+                                <h3 class="item-title">Room @item.Room.RoomNumber</h3>
+                                <span class="item-price">$@item.Room.Price <span class="price-period">/ night</span></span>
+                            </div>
+
+                            <p class="item-description">@item.Room.RoomName</p>
+
+                            <div class="item-specs">
+                                <div class="spec">
+                                    <i class="fas fa-users"></i>
+                                    <span>@item.Room.Capacity Guests</span>
+                                </div>
+                                <div class="spec">
+                                    <i class="fas fa-arrows-alt"></i>
+                                    <span>@item.Room.Size m²</span>
+                                </div>
+                                <div class="spec">
+                                    <i class="fas fa-bed"></i>
+                                    <span>@item.Room.BedType</span>
+                                </div>
+                            </div>
+
+                            <div class="item-meta">
+                                <span class="item-type">@item.Room.RoomType?.TypeName</span>
+                                <span class="item-status status-@item.Room.Status?.ToLower()">@item.Room.Status</span>
+                            </div>
+                        </div>
+
+                        <div class="item-actions">
+                            <a href="/Cart/Remove/@item.Id" class="btn-remove" onclick="return confirm('Are you sure you want to remove this room from your cart?')">
+                                <i class="fas fa-trash"></i>
+                                Remove
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="cart-sidebar">
+                <div class="summary-card">
+                    <h3 class="summary-title">Order Summary</h3>
+
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Rooms (@Model.Count)</span>
+                            <span>$@(Model.Sum(item => item.Room.Price))</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Service Fee</span>
+                            <span>$@(Model.Count * 20)</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Taxes</span>
+                            <span>$@(Math.Round(Model.Sum(item => item.Room.Price) * 0.1m, 2))</span>
+                        </div>
+                        <div class="summary-divider"></div>
+                        <div class="summary-row total">
+                            <span><strong>Total</strong></span>
+                            <span><strong>$@(Math.Round(Model.Sum(item => item.Room.Price) + (Model.Count * 20) + (Model.Sum(item => item.Room.Price) * 0.1m), 2))</strong></span>
+                        </div>
+                    </div>
+
+                    <div class="summary-actions">
+                        <a href="/Booking/Create" class="btn-checkout">
+                            <i class="fas fa-credit-card"></i>
+                            Proceed to Checkout
+                        </a>
+                        <a href="/Cart/Clear" class="btn-clear" onclick="return confirm('Are you sure you want to clear your entire cart?')">
+                            <i class="fas fa-broom"></i>
+                            Clear Cart
+                        </a>
+                        <a href="/Rooms" class="btn-continue">
+                            <i class="fas fa-plus"></i>
+                            Add More Rooms
+                        </a>
+                    </div>
+
+                    <div class="summary-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Secure Booking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-undo"></i>
+                            <span>Free Cancellation</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    // Clear client-side cart when cart page is loaded
+    localStorage.setItem("cart", "[]");
+
+    // Add smooth animations
+    document.addEventListener('DOMContentLoaded', function() {
+        const cartItems = document.querySelectorAll('.cart-item');
+        cartItems.forEach((item, index) => {
+            item.style.animationDelay = `${index * 0.1}s`;
+            item.classList.add('fade-in');
+        });
+    });
+</script>
