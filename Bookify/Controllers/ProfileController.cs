@@ -1,4 +1,6 @@
 using Bookify.DataAccessLayer;
+using Bookify.Helpers;
+using Bookify.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,45 +15,160 @@ namespace Bookify.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            // Get current user's reservations - you'll need to implement GetCurrentUserId()
+            if (!SessionHelper.IsLoggedIn(HttpContext.Session))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var customerId = GetCurrentCustomerId();
+            if (customerId == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var customer = await _context.Customers
+                .FirstOrDefaultAsync(c => c.CustomerId == customerId.Value);
+
+            if (customer == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
             var reservations = _context.Reservations
                 .Include(r => r.Room)
                 .Include(r => r.Customer)
-                .Where(r => r.CustomerId == GetCurrentCustomerId())
+                .Where(r => r.CustomerId == customerId.Value)
                 .OrderByDescending(r => r.ReservationDate)
                 .ToList();
 
+            ViewBag.Customer = customer;
             return View(reservations);
         }
         private int? GetCurrentCustomerId()
         {
-            // If you're using ASP.NET Core Identity, use:
-            // var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            return SessionHelper.GetUserId(HttpContext.Session);
+        }
 
-            // For session-based authentication:
-            var customerId = HttpContext.Session.GetInt32("CustomerId");
+        [HttpGet]
+        public async Task<IActionResult> Edit()
+        {
+            if (!SessionHelper.IsLoggedIn(HttpContext.Session))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
 
-            // For demo purposes, you can use a temporary approach:
+            var customerId = SessionHelper.GetUserId(HttpContext.Session);
             if (customerId == null)
             {
-                // Try to get the first customer as fallback (remove this in production)
-                var firstCustomer = _context.Customers.FirstOrDefault();
-                if (firstCustomer != null)
+                ViewBag.Error = "User not found. Please log in again.";
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var customer = await _context.Customers
+                .FirstOrDefaultAsync(c => c.CustomerId == customerId.Value);
+
+            if (customer == null)
+            {
+                ViewBag.Error = "Customer not found.";
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var viewModel = new EditProfileViewModel
+            {
+                FirstName = customer.FirstName,
+                LastName = customer.LastName,
+                Name = customer.Name,
+                Email = customer.Email,
+                PhoneNumber = customer.phoneNumber ?? string.Empty,
+                Nationality = customer.nationality ?? string.Empty,
+                Age = customer.Age,
+                Address = customer.Address
+            };
+
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(EditProfileViewModel model)
+        {
+            if (!SessionHelper.IsLoggedIn(HttpContext.Session))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var customerId = SessionHelper.GetUserId(HttpContext.Session);
+            if (customerId == null)
+            {
+                ViewBag.Error = "User not found. Please log in again.";
+                return RedirectToAction("Login", "Auth");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var customer = await _context.Customers
+                .FirstOrDefaultAsync(c => c.CustomerId == customerId.Value);
+
+            if (customer == null)
+            {
+                ViewBag.Error = "Customer not found.";
+                return RedirectToAction("Login", "Auth");
+            }
+
+            if (customer.Email != model.Email)
+            {
+                var emailExists = await _context.Customers
+                    .AnyAsync(c => c.Email == model.Email && c.CustomerId != customerId.Value);
+
+                if (emailExists)
                 {
-                    // Store in session for subsequent requests
-                    HttpContext.Session.SetInt32("CustomerId", firstCustomer.CustomerId);
-                    return firstCustomer.CustomerId;
+                    ModelState.AddModelError("Email", "This email is already registered to another account.");
+                    return View(model);
                 }
             }
 
-            return customerId;
-        }
+            var oldEmail = customer.Email;
+            var oldName = customer.Name;
 
-        public IActionResult Edit()
-        {
-            return View();
+            customer.FirstName = model.FirstName;
+            customer.LastName = model.LastName;
+            customer.Name = model.Name;
+            customer.Email = model.Email;
+            customer.phoneNumber = model.PhoneNumber;
+            customer.nationality = model.Nationality;
+            customer.Age = model.Age;
+            customer.Address = model.Address;
+
+            try
+            {
+                if (oldEmail != customer.Email || oldName != customer.Name)
+                {
+                    var isAdmin = SessionHelper.IsAdmin(HttpContext.Session);
+                    SessionHelper.SetUserSession(
+                        HttpContext.Session,
+                        customer.CustomerId,
+                        customer.Name,
+                        customer.Email,
+                        isAdmin
+                    );
+                }
+
+                _context.Customers.Update(customer);
+                await _context.SaveChangesAsync();
+
+                TempData["SuccessMessage"] = "Profile updated successfully!";
+                return RedirectToAction("Index");
+            }
+            catch (DbUpdateException)
+            {
+                ViewBag.Error = "An error occurred while updating your profile. Please try again.";
+                return View(model);
+            }
         }
         
         public IActionResult ChangePassword()

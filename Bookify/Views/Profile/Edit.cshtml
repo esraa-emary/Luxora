@@ -1,3 +1,4 @@
+@model Bookify.Models.EditProfileViewModel
 @{
     ViewData["Title"] = "Edit Profile";
 }
@@ -13,7 +14,7 @@
                 </div>
             </div>
             <div class="user-info">
-                <h2 class="user-name">Ahmed Sameh</h2>
+                <h2 class="user-name">@Model.Name</h2>
                 <p class="user-role">Luxury Traveler</p>
                 <div class="membership-badge">
                     <i class="fas fa-crown"></i>
@@ -55,75 +56,99 @@
             <p class="welcome-text">Update your personal information to keep your account current and secure. Your profile helps us personalize your luxury experience.</p>
         </div>
 
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success" style="background: #81c784; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <i class="fas fa-check-circle"></i> @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger" style="background: #e57373; color: white; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                <i class="fas fa-exclamation-circle"></i> @ViewBag.Error
+            </div>
+        }
+
         <div class="form-container">
-            <form class="profile-form">
+            <form asp-action="Edit" asp-controller="Profile" method="post" class="profile-form">
+                @Html.AntiForgeryToken()
+                
+                <div asp-validation-summary="ModelOnly" class="text-danger" style="color: #e57373; margin-bottom: 15px;"></div>
+
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="firstName"><i class="fas fa-signature"></i> First Name</label>
-                        <input type="text" id="firstName" value="Ahmed">
+                        <label asp-for="FirstName"><i class="fas fa-signature"></i> First Name</label>
+                        <input asp-for="FirstName" type="text" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
-                        <label for="lastName"><i class="fas fa-signature"></i> Last Name</label>
-                        <input type="text" id="lastName" value="Sameh">
+                        <label asp-for="LastName"><i class="fas fa-signature"></i> Last Name</label>
+                        <input asp-for="LastName" type="text" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                    <label asp-for="Name"><i class="fas fa-user"></i> Full Name</label>
+                    <input asp-for="Name" type="text" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Email"><i class="fas fa-envelope"></i> Email Address</label>
                     <div class="input-with-icon">
-                        <input type="email" id="email" value="ahmedsmoselhi@gmail.com">
+                        <input asp-for="Email" type="email" class="form-control" />
                         <div class="verified-badge">
                             <i class="fas fa-check-circle"></i>
                             <span>Verified</span>
                         </div>
                     </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
 
                 <div class="form-group">
-                    <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                    <label asp-for="PhoneNumber"><i class="fas fa-phone"></i> Phone Number</label>
                     <div class="input-with-icon">
-                        <input type="tel" id="phone" value="+20 123 456 789">
+                        <input asp-for="PhoneNumber" type="tel" class="form-control" />
                         <div class="verified-badge">
                             <i class="fas fa-check-circle"></i>
                             <span>Verified</span>
                         </div>
                     </div>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="birthdate"><i class="fas fa-birthday-cake"></i> Date of Birth</label>
-                        <input type="date" id="birthdate" value="1990-01-15">
+                        <label asp-for="Age"><i class="fas fa-birthday-cake"></i> Age</label>
+                        <input asp-for="Age" type="number" min="18" max="120" class="form-control" />
+                        <span asp-validation-for="Age" class="text-danger"></span>
                     </div>
 
                     <div class="form-group">
-                        <label for="language"><i class="fas fa-globe"></i> Preferred Language</label>
-                        <select id="language">
-                            <option value="en">English</option>
-                            <option value="ar">Arabic</option>
-                            <option value="fr">French</option>
-                            <option value="es">Spanish</option>
-                        </select>
+                        <label asp-for="Nationality"><i class="fas fa-globe"></i> Nationality</label>
+                        <input asp-for="Nationality" type="text" class="form-control" />
+                        <span asp-validation-for="Nationality" class="text-danger"></span>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="address"><i class="fas fa-map-marker-alt"></i> Address</label>
-                    <textarea id="address">Cairo, Egypt</textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="bio"><i class="fas fa-edit"></i> Bio</label>
-                    <textarea id="bio" placeholder="Tell us a little about yourself...">Luxury hotel enthusiast with a passion for exquisite experiences and five-star service. I enjoy discovering hidden gems and sharing my travels with others.</textarea>
+                    <label asp-for="Address"><i class="fas fa-map-marker-alt"></i> Address</label>
+                    <textarea asp-for="Address" class="form-control"></textarea>
+                    <span asp-validation-for="Address" class="text-danger"></span>
                 </div>
 
                 <div class="form-actions">
                     <button type="submit" class="save-btn"><i class="fas fa-save"></i> Save Changes</button>
-                    <a href="#" class="cancel-btn"><i class="fas fa-times"></i> Cancel</a>
+                    <a href="@Url.Action("Index", "Profile")" class="cancel-btn"><i class="fas fa-times"></i> Cancel</a>
                 </div>
             </form>
         </div>
     </div>
 </div>
 <script src="~/js/edit.js"></script>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
