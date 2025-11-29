@@ -187,6 +187,55 @@ namespace Bookify.Controllers
             return View(reservations);
         }
 
+        // Delete Reservation
+        [HttpPost]
+        [IgnoreAntiforgeryToken]
+        public async Task<IActionResult> DeleteReservation(int id)
+        {
+            try
+            {
+                var reservation = await _context.Reservations
+                    .Include(r => r.Room)
+                    .FirstOrDefaultAsync(r => r.ReservationId == id);
+
+                if (reservation == null)
+                {
+                    return Json(new { success = false, message = "Reservation not found." });
+                }
+
+                var roomNumber = reservation.RoomNumber;
+
+                // Delete the reservation
+                _context.Reservations.Remove(reservation);
+                await _context.SaveChangesAsync();
+
+                // Check if room has any other active reservations
+                var today = DateTime.Today;
+                var hasOtherActiveReservations = await _context.Reservations
+                    .AnyAsync(r => r.RoomNumber == roomNumber && 
+                                  (r.Status == ReservationStatus.Pending || 
+                                   (r.Status == ReservationStatus.Completed && r.EndDate >= today)));
+
+                // If no other active reservations, make room available again
+                if (!hasOtherActiveReservations)
+                {
+                    var room = await _context.Rooms.FindAsync(roomNumber);
+                    if (room != null && room.Status == "Unavailable")
+                    {
+                        room.Status = "Available";
+                        _context.Rooms.Update(room);
+                        await _context.SaveChangesAsync();
+                    }
+                }
+
+                return Json(new { success = true, message = "Reservation deleted successfully!" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error deleting reservation: " + ex.Message });
+            }
+        }
+
         // Manage Customers
         public async Task<IActionResult> ManageCustomers()
         {

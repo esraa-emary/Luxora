@@ -116,10 +116,12 @@
                     </div>
 
                     <div class="summary-actions">
-                        <a href="/Booking/Create" class="btn-checkout">
-                            <i class="fas fa-credit-card"></i>
-                            Proceed to Checkout
-                        </a>
+                        <form asp-action="Checkout" asp-controller="Cart" method="post" style="display: inline;">
+                            <button type="submit" class="btn-checkout" onclick="return confirm('Confirm booking for all rooms in your cart?')">
+                                <i class="fas fa-check-circle"></i>
+                                Confirm Booking
+                            </button>
+                        </form>
                         <a href="/Cart/Clear" class="btn-clear" onclick="return confirm('Are you sure you want to clear your entire cart?')">
                             <i class="fas fa-broom"></i>
                             Clear Cart

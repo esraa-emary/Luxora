@@ -7,7 +7,7 @@ namespace Bookify.Service
 {
     public interface IOrdersService
     {
-        Task<int> MakeOrderAsync(OrderRequestDTO dto);
+        Task<int> MakeOrderAsync(OrderRequestDTO dto, int? loggedInUserId = null);
     }
     public class OrdersService : IOrdersService
     {
@@ -18,19 +18,44 @@ namespace Bookify.Service
             _context = context;
         }
 
-        public async Task<int> MakeOrderAsync(OrderRequestDTO dto)
+        public async Task<int> MakeOrderAsync(OrderRequestDTO dto, int? loggedInUserId = null)
         {
-            // 1) Add customer
-            var customer = new Customer
+            Customer customer;
+            
+            // If user is logged in, use existing customer
+            if (loggedInUserId.HasValue)
             {
-                Name = dto.Customer.FullName,
-                Email = dto.Customer.Email,
-                phoneNumber = dto.Customer.PhoneNumber,
-                nationality = dto.Customer.Nationality,
-                SSN = dto.Customer.NationalID // for natioality
-            };
+                customer = await _context.Customers.FindAsync(loggedInUserId.Value);
+                if (customer == null)
+                {
+                    throw new InvalidOperationException("Logged-in user not found in database");
+                }
+                
+                // Update customer info if provided in DTO
+                if (!string.IsNullOrEmpty(dto.Customer.FullName))
+                    customer.Name = dto.Customer.FullName;
+                if (!string.IsNullOrEmpty(dto.Customer.PhoneNumber))
+                    customer.phoneNumber = dto.Customer.PhoneNumber;
+                if (!string.IsNullOrEmpty(dto.Customer.Nationality))
+                    customer.nationality = dto.Customer.Nationality;
+                    
+                _context.Customers.Update(customer);
+            }
+            else
+            {
+                // Guest checkout - create new customer
+                customer = new Customer
+                {
+                    Name = dto.Customer.FullName,
+                    Email = dto.Customer.Email,
+                    phoneNumber = dto.Customer.PhoneNumber,
+                    nationality = dto.Customer.Nationality,
+                    SSN = dto.Customer.NationalID
+                };
 
-            _context.Customers.Add(customer);
+                _context.Customers.Add(customer);
+            }
+            
             await _context.SaveChangesAsync();
 
             var order = new Order

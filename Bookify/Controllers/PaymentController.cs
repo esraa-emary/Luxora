@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Bookify.Helpers;
+using Microsoft.AspNetCore.Mvc;
 using Bookify.Models;
-using Bookify;
 namespace Bookify.Controllers
 {
     public class PaymentController : Controller
@@ -8,6 +8,11 @@ namespace Bookify.Controllers
         [HttpGet]
         public IActionResult Payment()
         {
+            if (!SessionHelper.IsLoggedIn(HttpContext.Session))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
             var model = new Payment();
             return View(model);
         }
@@ -15,6 +20,11 @@ namespace Bookify.Controllers
         [HttpPost]
         public IActionResult Payment(Payment model)
         {
+            if (!SessionHelper.IsLoggedIn(HttpContext.Session))
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
             if (ModelState.IsValid)
             {
                 TempData["SuccessMessage"] = "✅ Booking & Payment Successful!";

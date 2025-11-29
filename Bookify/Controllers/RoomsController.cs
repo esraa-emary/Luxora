@@ -17,9 +17,42 @@ namespace Bookify.Controllers
         // Returns the main view with rooms list
         public async Task<IActionResult> Index()
         {
-            var rooms = await _context.Rooms
+            // Get all rooms and check for active reservations
+            var allRooms = await _context.Rooms
                 .Include(r => r.RoomType)
+                .Include(r => r.Reservations)
                 .ToListAsync();
+
+            // Update room availability based on reservations
+            var today = DateTime.Today;
+            foreach (var room in allRooms)
+            {
+                var hasActiveReservation = room.Reservations.Any(r => 
+                    r.Status == ReservationStatus.Pending || 
+                    (r.Status == ReservationStatus.Completed && r.EndDate >= today));
+
+                // If room has active reservation, mark as unavailable
+                if (hasActiveReservation)
+                {
+                    if (room.Status != "Unavailable")
+                    {
+                        room.Status = "Unavailable";
+                        _context.Rooms.Update(room);
+                    }
+                }
+                // If no active reservations and room is unavailable, make it available again
+                else if (room.Status != null && room.Status.Equals("Unavailable", StringComparison.OrdinalIgnoreCase))
+                {
+                    room.Status = "Available";
+                    _context.Rooms.Update(room);
+                }
+            }
+            await _context.SaveChangesAsync();
+
+            // Return only available rooms
+            var rooms = allRooms
+                .Where(r => r.Status != null && r.Status.Equals("Available", StringComparison.OrdinalIgnoreCase))
+                .ToList();
 
             return View(rooms);
         }
@@ -28,8 +61,41 @@ namespace Bookify.Controllers
         [HttpGet]
         public async Task<IActionResult> GetRooms()
         {
-            var rooms = await _context.Rooms
+            // Get all rooms and check for active reservations
+            var allRooms = await _context.Rooms
                 .Include(r => r.RoomType)
+                .Include(r => r.Reservations)
+                .ToListAsync();
+
+            // Update room availability based on reservations
+            var today = DateTime.Today;
+            foreach (var room in allRooms)
+            {
+                var hasActiveReservation = room.Reservations.Any(r => 
+                    r.Status == ReservationStatus.Pending || 
+                    (r.Status == ReservationStatus.Completed && r.EndDate >= today));
+
+                // If room has active reservation, mark as unavailable
+                if (hasActiveReservation)
+                {
+                    if (room.Status != "Unavailable")
+                    {
+                        room.Status = "Unavailable";
+                        _context.Rooms.Update(room);
+                    }
+                }
+                // If no active reservations and room is unavailable, make it available again
+                else if (room.Status != null && room.Status.Equals("Unavailable", StringComparison.OrdinalIgnoreCase))
+                {
+                    room.Status = "Available";
+                    _context.Rooms.Update(room);
+                }
+            }
+            await _context.SaveChangesAsync();
+
+            // Return only available rooms
+            var rooms = allRooms
+                .Where(r => r.Status != null && r.Status.Equals("Available", StringComparison.OrdinalIgnoreCase))
                 .Select(r => new
                 {
                     //Id = r.Id,
@@ -48,7 +114,7 @@ namespace Bookify.Controllers
                     //Featured = r.Featured,
                     //Premium = r.Premium
                 })
-                .ToListAsync();
+                .ToList();
 
             return Ok(rooms);
         }

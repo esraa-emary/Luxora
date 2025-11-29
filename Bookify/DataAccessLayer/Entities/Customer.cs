@@ -28,8 +28,8 @@ namespace Bookify.DataAccessLayer.Entities
         [StringLength(20)]
         public string SSN { get; set; } = string.Empty;
         [Phone]
-        public string phoneNumber { get; set; } = null!;
-        public string nationality { get; set; } = null!;
+        public string phoneNumber { get; set; } = string.Empty;
+        public string nationality { get; set; } = string.Empty;
         [Required]
         public int Age { get; set; }
 
