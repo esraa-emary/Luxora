@@ -138,31 +138,6 @@ body {
     position: relative;
 }
 
-.brand-logo {
-    width: 60px;
-    height: 60px;
-    background: var(--gradient-primary);
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 20px;
-    font-size: 2rem;
-    color: white;
-    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.3);
-    animation: logoFloat 3s ease-in-out infinite;
-}
-
-@keyframes logoFloat {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
-    }
-
-    50% {
-        transform: translateY(-8px) rotate(5deg);
-    }
-}
-
 .auth-form-header h1 {
     font-family: 'Playfair Display', serif;
     color: var(--dark-brown);
