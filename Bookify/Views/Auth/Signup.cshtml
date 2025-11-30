@@ -13,7 +13,7 @@
         </div>
         
         <div class="auth-content center-center">
-            <div class="auth-form-container">
+            <div class="auth-form-container" style="margin-top: 100px;">
                 <div class="auth-form-header center-center col">
                     <h1>Join Luxora</h1>
                     <p>Create your account to start booking amazing stays</p>
@@ -28,7 +28,7 @@
                 }
 
                 <form asp-controller="Auth" asp-action="Signup" method="post" class="auth-form center-center col">
-                    <div class="auth-inputs">
+                    <div class="auth-inputs" style="margin-top: 100px;">
                         <div class="auth-input-row">
                             <div class="auth-input-group">
                                 <label for="firstName">First Name</label>
@@ -79,9 +79,10 @@
 
                         <div class="auth-options center-between">
                             <label class="remember-me">
-                                <input type="checkbox" name="agreeToTerms" required />
-                                <span class="checkmark"></span>
-                                I agree to the <a href="#" class="auth-link">Terms & Conditions</a>
+                                <input type="checkbox" name="agreeToTerms" required>
+                                <span class="custom-checkbox"></span>
+                                I agree to the
+                                <a asp-action="Terms" asp-controller="Rooms" class="auth-link">Terms & Conditions</a>
                             </label>
                         </div>
 

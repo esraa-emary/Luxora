@@ -1,48 +1,64 @@
-﻿@model List<Bookify.DataAccessLayer.Entities.Reservation>
-
+﻿@model IEnumerable<Bookify.DataAccessLayer.Entities.Reservation>
 @{
-    ViewData["Title"] = "Booking History";
+	ViewData["Title"] = "Booking History";
 }
+
+<link href="~/css/profile.css" rel="stylesheet" />
+
+<style>
+	.profile-page{
+		padding: 0 20px;
+	}
+</style>
 
 <h2 class="Book_title">My Booking History</h2>
 
-<div class="filter">
-    <select>
-        <option>All</option>
-        <option>Completed</option>
-        <option>Pending</option>
-        <option>Cancelled</option>
-    </select>
+<div class="profile-page" style="padding-top:50px;">
+	<div class="bookings-header">
+		<h2>My Bookings</h2>
+		<div class="booking-filters">
+			<button class="filter-btn active" data-filter="all">All</button>
+			<button class="filter-btn" data-filter="pending">Pending</button>
+			<button class="filter-btn" data-filter="upcoming">Upcoming</button>
+			<button class="filter-btn" data-filter="completed">Completed</button>
+			<button class="filter-btn" data-filter="cancelled">Cancelled</button>
+		</div>
+	</div>
+
+
+	<div class="bookings-list">
+		@foreach (var reservation in Model)
+		{
+			<div class="booking-card @(reservation.Status.ToString().ToLower())">
+				<div class="booking-details">
+					<h4>Room @reservation.RoomNumber</h4>
+					<div class="booking-info">
+						<div class="info-row">
+							<i class="fas fa-calendar"></i>
+							<span>@reservation.StartDate.ToString("MMM dd, yyyy") - @reservation.EndDate.ToString("MMM dd, yyyy")</span>
+						</div>
+						<div class="info-row">
+							<i class="fas fa-calendar-check"></i>
+							<span>Booked on: @reservation.ReservationDate.ToString("MMM dd, yyyy")</span>
+						</div>
+						<div class="info-row">
+							<i class="fas fa-credit-card"></i>
+							<span>@reservation.Price.ToString("C") Total</span>
+						</div>
+					</div>
+				</div>
+				<div class="booking-image">
+					@* <img src="@GetRoomImage(reservation.RoomNumber)" alt="Room @reservation.RoomNumber"> *@
+					<div class="booking-status status-@(reservation.Status.ToString().ToLower())">
+						@reservation.Status
+					</div>
+				</div>
+			</div>
+		}
+	</div>
 </div>
 
-<div class="history-list">
-    @foreach (var r in Model)
-    {
-        <div class="history-card">
-            <div class="card-info">
-                <h3>@r.Room.Description</h3>
-                <p>@r.Customer.FirstName</p>
-                <p>@r.Room.RoomNumber</p>
-                <p>@r.StartDate.ToString("dd MMM yyyy") → @r.EndDate.ToString("dd MMM yyyy")</p>
-            </div>
-            <div class="card-status">
-                <span class="status @(r.Status)">@r.Status</span>
-                <p class="price">$@r.Price</p>
-            </div>
-        </div>
-    }
-</div>
-
-<style>
-    .Book_title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 20px;
-        text-align: center;
-        color: #2c3e50; 
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
-        transition: transform 0.3s ease, color 0.3s ease;
-    }
-</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+@section Scripts {
+	<script src="~/js/profile.js"></script>
+}

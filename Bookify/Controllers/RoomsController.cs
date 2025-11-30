@@ -118,5 +118,9 @@ namespace Bookify.Controllers
 
             return Ok(rooms);
         }
+        public IActionResult Terms()
+        {
+            return View();
+        }
     }
 }

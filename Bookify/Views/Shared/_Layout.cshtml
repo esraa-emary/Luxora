@@ -131,6 +131,14 @@
                                         </div>
                                     </div>
                                     <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item">
+                                        <div class="dropdown-icon">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </div>
+                                        <div class="dropdown-content">
+                                            <span class="dropdown-title">Logout</span>
+                                        </div>
+                                    </a>
                                     <a asp-action="Index" asp-controller="Profile" class="dropdown-item">
                                         <div class="dropdown-icon">
                                             <i class="fas fa-user-cog"></i>
@@ -168,6 +176,12 @@
                                 </a>
                             </li>
 
+                            <li class="nav-item">
+                                <a asp-controller="History" asp-action="Index" class="nav-link">
+                                    <i class="fas fa-bed"></i>
+                                    <span>History</span>
+                                </a>
+                            </li>
                             
                             <li class="nav-item dropdown mobile-auth">
                                 <a href="#" class="nav-link dropdown-toggle">
