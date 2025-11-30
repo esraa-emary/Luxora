@@ -291,12 +291,6 @@
                 @foreach (var reservation in Model)
                 {
                     <div class="booking-card @(reservation.Status.ToString().ToLower())">
-                        <div class="booking-image">
-                            @* <img src="@GetRoomImage(reservation.RoomNumber)" alt="Room @reservation.RoomNumber"> *@
-                            <div class="booking-status status-@(reservation.Status.ToString().ToLower())">
-                                @reservation.Status
-                            </div>
-                        </div>
                         <div class="booking-details">
                             <h4>Room @reservation.RoomNumber</h4>
                             <div class="booking-info">
@@ -314,17 +308,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="booking-actions">
-                            @if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Pending)
-                            {
-                                <button class="action-btn primary">Manage</button>
-                                <button class="action-btn secondary">Cancel</button>
-                            }
-                            else if (reservation.Status == Bookify.DataAccessLayer.Entities.ReservationStatus.Completed)
-                            {
-                                <button class="action-btn primary">Review</button>
-                                <button class="action-btn secondary">Receipt</button>
-                            }
+                        <div class="booking-image">
+                            @* <img src="@GetRoomImage(reservation.RoomNumber)" alt="Room @reservation.RoomNumber"> *@
+                            <div class="booking-status status-@(reservation.Status.ToString().ToLower())">
+                                @reservation.Status
+                            </div>
                         </div>
                     </div>
                 }

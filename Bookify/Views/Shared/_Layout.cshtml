@@ -56,7 +56,7 @@
                                         <p>Discover our luxury accommodations</p>
                                     </div>
                                     <div class="dropdown-grid">
-                                        <a href="#" class="dropdown-item featured">
+                                        <a asp-controller="Rooms" asp-action="Index" class="dropdown-item featured">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-star"></i>
                                             </div>
@@ -65,7 +65,7 @@
                                                 <span class="dropdown-desc">Browse all available rooms</span>
                                             </div>
                                         </a>
-                                        <a href="#" class="dropdown-item">
+                                        <a asp-controller="Rooms" asp-action="Index" class="dropdown-item">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-door-open"></i>
                                             </div>
@@ -74,7 +74,7 @@
                                                 <span class="dropdown-desc">Comfortable and elegant</span>
                                             </div>
                                         </a>
-                                        <a href="#" class="dropdown-item">
+                                        <a asp-controller="Rooms" asp-action="Index" class="dropdown-item">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-crown"></i>
                                             </div>
@@ -83,7 +83,7 @@
                                                 <span class="dropdown-desc">Premium amenities</span>
                                             </div>
                                         </a>
-                                        <a href="#" class="dropdown-item">
+                                        <a asp-controller ="Rooms" asp-action="Index" class="dropdown-item">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-chess-queen"></i>
                                             </div>
@@ -92,7 +92,7 @@
                                                 <span class="dropdown-desc">Luxurious suites</span>
                                             </div>
                                         </a>
-                                        <a href="#" class="dropdown-item">
+                                        <a asp-controller="Rooms" asp-action="Index" class="dropdown-item">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-mountain"></i>
                                             </div>
@@ -101,7 +101,7 @@
                                                 <span class="dropdown-desc">Breathtaking views</span>
                                             </div>
                                         </a>
-                                        <a href="#" class="dropdown-item">
+                                        <a asp-controller="Rooms" asp-action="Index" class="dropdown-item">
                                             <div class="dropdown-icon">
                                                 <i class="fas fa-users"></i>
                                             </div>
@@ -131,7 +131,7 @@
                                         </div>
                                     </div>
                                     <div class="dropdown-divider"></div>
-                                    <a href="#" class="dropdown-item">
+                                    <a asp-action="Index" asp-controller="Profile" class="dropdown-item">
                                         <div class="dropdown-icon">
                                             <i class="fas fa-user-cog"></i>
                                         </div>
@@ -140,7 +140,7 @@
                                             <span class="dropdown-desc">Manage your profile</span>
                                         </div>
                                     </a>
-                                    <a href="#" class="dropdown-item">
+                                    <a asp-action="Index" asp-controller="History" class="dropdown-item">
                                         <div class="dropdown-icon">
                                             <i class="fas fa-history"></i>
                                         </div>
@@ -149,7 +149,7 @@
                                             <span class="dropdown-desc">View past reservations</span>
                                         </div>
                                     </a>
-                                    <a href="#" class="dropdown-item">
+                                    <a asp-action="Index" asp-controller="Cart" class="dropdown-item">
                                         <div class="dropdown-icon">
                                             <i class="fas fa-heart"></i>
                                         </div>
@@ -160,6 +160,15 @@
                                     </a>
                                 </div>
                             </li>
+                           
+                            <li class="nav-item">
+                                <a asp-controller="Cart" asp-action="Index" class="nav-link">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>Cart</span>
+                                </a>
+                            </li>
+
+                            
                             <li class="nav-item dropdown mobile-auth">
                                 <a href="#" class="nav-link dropdown-toggle">
                                     <i class="fas fa-sign-in-alt"></i>
@@ -200,7 +209,7 @@
                     </div>
                 </div>
                 <div class="nav-actions">
-                    <div class="search-container2">
+                    <!--<div class="search-container2">
                         <button class="search-btn" id="searchToggle">
                             <i  class="fas fa-search"></i>
                         </button>
@@ -237,7 +246,7 @@
                             <i class="fas fa-bell"></i>
                             <span class="notification-badge">3</span>
                         </button>
-                    </div>
+                    </div>-->
 
                     <div class="auth-buttons2">
                         @using Bookify.Helpers
@@ -556,6 +565,7 @@
         <button class="back-to-top" id="backToTop">
             <i class="fas fa-chevron-up"></i>
         </button>
+       
         <div class="contact-panel" id="contactPanel">
             <button class="contact-panel-toggle" id="panelToggle">
                 <i class="fas fa-plus"></i>
@@ -573,13 +583,6 @@
                 <a asp-action="Index" asp-controller="Chat_Bot" class="contact-panel-btn chat-btn" data-label="Live Chat">
                     <i class="fas fa-comments"></i>
                 </a>
-                <!-- In your navigation menu -->
-                <div class="cart-icon">
-                    <a asp-action="Index" asp-controller="Cart">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count" id="cartCount">0</span>
-                    </a>
-                </div>
             </div>
         </div>
     </footer>

@@ -2,186 +2,183 @@
 @model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
 
 @{
-    ViewBag.Title = "Rooms";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+	ViewBag.Title = "Rooms";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 
-    // Serialize rooms data to JSON for JavaScript
-    var roomsJson = System.Text.Json.JsonSerializer.Serialize(Model.Select(r => new {
-        id = r.RoomNumber,
-        number = r.RoomNumber,
-        type = r.RoomType?.TypeName ?? "standard",
-        price = r.Price,
-        status = r.Status?.ToLower() ?? "available",
-        capacity = r.Capacity,
-        size = r.Size,
-        bedType = r.BedType,
-        view = r.View?.ToLower() ?? "city",
-        amenities = r.Amenities?.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(a => a.Trim()).ToArray() ?? new string[0],
-        // featured = r.Featured,
-        // premium = r.Premium,
-        image = r.ImageUrl,
-        description = r.Description
-    }));
+	// Serialize rooms data to JSON for JavaScript
+	var roomsJson = System.Text.Json.JsonSerializer.Serialize(Model.Select(r => new
+	{
+		id = r.RoomNumber,
+		number = r.RoomNumber,
+		type = r.RoomType?.TypeName ?? "standard",
+		price = r.Price,
+		status = r.Status?.ToLower() ?? "available",
+		capacity = r.Capacity,
+		size = r.Size,
+		bedType = r.BedType,
+		view = r.View?.ToLower() ?? "city",
+		amenities = r.Amenities?.Split(',', StringSplitOptions.RemoveEmptyEntries).Select(a => a.Trim()).ToArray() ?? new string[0],
+		// featured = r.Featured,
+		// premium = r.Premium,
+		image = r.ImageUrl,
+		description = r.Description
+	}));
 }
 <link href="~/css/rooms.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <section class="breadcrumb">
-    <div class="luxury-container" style="padding-top:100px;"> 
-        <header class="luxury-header">
-            <div class="header-top">
-                <div class="hotel-brand">
-                    <div class="hotel-logo">
-                        <i class="fas fa-crown"></i>
-                    </div>
-                    <h1 class="hotel-title">GRAND LUXURY HOTEL</h1>
-                </div>
-                <div class="header-controls">
-                    <div class="luxury-search">
-                        <span class="search-icon"><i class="fas fa-search"></i></span>
-                        <input type="text" placeholder="Search rooms..." id="searchInput">
-                    </div>
-                    <div class="view-controls">
-                        <button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
-                        <button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
-                        <button class="view-btn" data-view="map"><i class="fas fa-map"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div class="header-stats">
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-door-open"></i></div>
-                    <div class="stat-value" id="availableCount">@Model.Count(r => r.Status?.ToLower() == "available")</div>
-                    <div class="stat-label">Available Rooms</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-bed"></i></div>
-                    <div class="stat-value" id="occupiedCount">@Model.Count(r => r.Status?.ToLower() == "occupied")</div>
-                    <div class="stat-label">Occupied</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-star"></i></div>
-                    @* <div class="stat-value" id="premiumCount">@Model.Count(r => r.Premium)</div> *@
-                    <div class="stat-label">Premium Suites</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
-                    @* <div class="stat-value">@((Model.Count(r => r.Status?.ToLower() == "occupied") * 100 / Math.Max(Model.Count(), 1))%</div> *@
-                    <div class="stat-label">Occupancy Rate</div>
-                </div>
-            </div>
-        </header>
+	<div class="luxury-container" style="padding-top:100px;">
+		<header class="luxury-header">
+			<div class="header-top">
+				<div class="hotel-brand">
+					<div class="hotel-logo">
+						<i class="fas fa-crown"></i>
+					</div>
+					<h1 class="hotel-title">GRAND LUXURY HOTEL</h1>
+				</div>
+				<div class="header-controls">
+					<div class="luxury-search">
+						<span class="search-icon"><i class="fas fa-search"></i></span>
+						<input type="text" placeholder="Search rooms..." id="searchInput">
+					</div>
+					<div class="view-controls">
+						<button class="view-btn active" data-view="grid"><i class="fas fa-th"></i></button>
+						<button class="view-btn" data-view="list"><i class="fas fa-list"></i></button>
+						<button class="view-btn" data-view="map"><i class="fas fa-map"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="header-stats">
+				<div class="stat-card">
+					<div class="stat-icon"><i class="fas fa-door-open"></i></div>
+					<div class="stat-value" id="availableCount">@Model.Count(r => r.Status?.ToLower() == "available")</div>
+					<div class="stat-label">Available Rooms</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-icon"><i class="fas fa-bed"></i></div>
+					<div class="stat-value" id="occupiedCount">@Model.Count(r => r.Status?.ToLower() == "occupied")</div>
+					<div class="stat-label">Occupied</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-icon"><i class="fas fa-star"></i></div>
+					@* <div class="stat-value" id="premiumCount">@Model.Count(r => r.Premium)</div> *@
+					<div class="stat-label">Premium Suites</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+					@* <div class="stat-value">@((Model.Count(r => r.Status?.ToLower() == "occupied") * 100 / Math.Max(Model.Count(), 1))%</div> *@
+					<div class="stat-label">Occupancy Rate</div>
+				</div>
+			</div>
+		</header>
 
-        <!-- Filters -->
-        <section class="luxury-filters">
-            <div class="filter-header">
-                <h2 class="filter-title"><i class="fas fa-sliders-h"></i> Room Filters</h2>
-                <div class="filter-actions">
-                    <button class="luxury-btn secondary" id="clearFilters">
-                        <i class="fas fa-undo"></i> Clear All
-                    </button>
-                    <button class="luxury-btn" id="applyFilters">
-                        <i class="fas fa-check"></i> Apply Filters
-                    </button>
-                </div>
-            </div>
-            <div class="filter-grid">
-                <div class="filter-group">
-                    <label class="filter-label"><i class="fas fa-bed"></i> Room Type</label>
-                    <select class="luxury-select" id="typeFilter">
-                        <option value="">All Types</option>
-                        @foreach (var type in Model.Select(r => r.RoomType?.TypeName).Distinct().Where(t => !string.IsNullOrEmpty(t)))
-                        {
-                            <option value="@type?.ToLower()">@type</option>
-                        }
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label class="filter-label"><i class="fas fa-tag"></i> Price Range</label>
-                    <div class="price-range">
-                        <input type="number" class="luxury-input" placeholder="Min" id="minPrice" min="0" max="@(Model.Any() ? Model.Max(r => r.Price) : 0)">
-                        <input type="number" class="luxury-input" placeholder="Max" id="maxPrice" min="0" max="@(Model.Any() ? Model.Max(r => r.Price) : 0)">
-                    </div>
-                </div>
-                <div class="filter-group">
-                    <label class="filter-label"><i class="fas fa-users"></i> Capacity</label>
-                    <select class="luxury-select" id="capacityFilter">
-                        <option value="">Any Capacity</option>
-                        @foreach (var capacity in Model.Select(r => r.Capacity).Distinct().OrderBy(c => c))
-                        {
-                            <option value="@capacity">@capacity @(capacity == 1 ? "Guest" : "Guests")</option>
-                        }
-                    </select>
-                </div>
-                <div class="filter-group">
-                    <label class="filter-label"><i class="fas fa-info-circle"></i> Room Status</label>
-                    <select class="luxury-select" id="statusFilter">
-                        <option value="">All Status</option>
-                        @foreach (var status in Model.Select(r => r.Status).Distinct().Where(s => !string.IsNullOrEmpty(s)))
-                        {
-                            <option value="@status?.ToLower()">@status</option>
-                        }
-                    </select>
-                </div>
-            </div>
-            <div class="filter-chips">
-                <div class="filter-chip active"><i class="fas fa-layer-group"></i> All Rooms</div>
-                <div class="filter-chip"><i class="fas fa-water"></i> Ocean View</div>
-                <div class="filter-chip"><i class="fas fa-city"></i> City View</div>
-                <div class="filter-chip"><i class="fas fa-crown"></i> Premium</div>
-                <div class="filter-chip"><i class="fas fa-star"></i> Featured</div>
-            </div>
-        </section>
+		<!-- Filters -->
+		<section class="luxury-filters">
+			<div class="filter-header">
+				<h2 class="filter-title"><i class="fas fa-sliders-h"></i> Room Filters</h2>
+				<div class="filter-actions">
+					<button class="luxury-btn secondary" id="clearFilters">
+						<i class="fas fa-undo"></i> Clear All
+					</button>
+					<button class="luxury-btn" id="applyFilters">
+						<i class="fas fa-check"></i> Apply Filters
+					</button>
+				</div>
+			</div>
+			<div class="filter-grid">
+				<div class="filter-group">
+					<label class="filter-label"><i class="fas fa-bed"></i> Room Type</label>
+					<select class="luxury-select" id="typeFilter">
+						<option value="">All Types</option>
+						@foreach (var type in Model.Select(r => r.RoomType?.TypeName).Distinct().Where(t => !string.IsNullOrEmpty(t)))
+						{
+							<option value="@type?.ToLower()">@type</option>
+						}
+					</select>
+				</div>
+				<div class="filter-group">
+					<label class="filter-label"><i class="fas fa-tag"></i> Price Range</label>
+					<div class="price-range">
+						<input type="number" class="luxury-input" placeholder="Min" id="minPrice" min="0" max="@(Model.Any() ? Model.Max(r => r.Price) : 0)">
+						<input type="number" class="luxury-input" placeholder="Max" id="maxPrice" min="0" max="@(Model.Any() ? Model.Max(r => r.Price) : 0)">
+					</div>
+				</div>
+				<div class="filter-group">
+					<label class="filter-label"><i class="fas fa-users"></i> Capacity</label>
+					<select class="luxury-select" id="capacityFilter">
+						<option value="">Any Capacity</option>
+						@foreach (var capacity in Model.Select(r => r.Capacity).Distinct().OrderBy(c => c))
+						{
+							<option value="@capacity">@capacity @(capacity == 1 ? "Guest" : "Guests")</option>
+						}
+					</select>
+				</div>
+				<div class="filter-group">
+					<label class="filter-label"><i class="fas fa-info-circle"></i> Room Status</label>
+					<select class="luxury-select" id="statusFilter">
+						<option value="">All Status</option>
+						@foreach (var status in Model.Select(r => r.Status).Distinct().Where(s => !string.IsNullOrEmpty(s)))
+						{
+							<option value="@status?.ToLower()">@status</option>
+						}
+					</select>
+				</div>
+			</div>
+			<div class="filter-chips">
+				<div class="filter-chip active"><i class="fas fa-layer-group"></i> All Rooms</div>
+				<div class="filter-chip"><i class="fas fa-water"></i> Ocean View</div>
+				<div class="filter-chip"><i class="fas fa-city"></i> City View</div>
+				<div class="filter-chip"><i class="fas fa-crown"></i> Premium</div>
+				<div class="filter-chip"><i class="fas fa-star"></i> Featured</div>
+			</div>
+		</section>
 
-        <!-- Rooms Grid -->
-        <section class="rooms-section">
-            <div class="section-header">
-                <h2 class="section-title"><i class="fas fa-concierge-bell"></i> Available Rooms</h2>
-                <div class="sort-controls">
-                    <select class="luxury-select" id="sortSelect">
-                        <option value="number">Sort by Room Number</option>
-                        <option value="price">Sort by Price</option>
-                        <option value="capacity">Sort by Capacity</option>
-                        <option value="type">Sort by Type</option>
-                    </select>
-                </div>
-            </div>
-            <div class="rooms-grid" id="roomsGrid">
-                <!-- Rooms will be loaded here by JavaScript -->
-            </div>
-        </section>
-    </div>
+		<!-- Rooms Grid -->
+		<section class="rooms-section">
+			<div class="section-header">
+				<h2 class="section-title"><i class="fas fa-concierge-bell"></i> Available Rooms</h2>
+				<div class="sort-controls">
+					<select class="luxury-select" id="sortSelect">
+						<option value="number">Sort by Room Number</option>
+						<option value="price">Sort by Price</option>
+						<option value="capacity">Sort by Capacity</option>
+						<option value="type">Sort by Type</option>
+					</select>
+				</div>
+			</div>
+			<div class="rooms-grid" id="roomsGrid">
+				<!-- Rooms will be loaded here by JavaScript -->
+			</div>
+		</section>
+	</div>
 
-    <!-- Room Modal -->
-    <div class="modal-overlay" id="roomModal">
-        <div class="luxury-modal">
-            <div class="modal-header">
-                <h2 class="modal-title" id="modalRoomTitle"><i class="fas fa-info-circle"></i> Room Details</h2>
-                <button class="btn-close" id="closeModal"><i class="fas fa-times"></i></button>
-            </div>
-            <div class="modal-content" id="modalContent">
-                <!-- Modal content will be loaded dynamically -->
-            </div>
-            <div class="modal-actions">
-                <button class="btn-details" id="addToFavorites"><i class="far fa-heart"></i> Add to Favorites</button>
-                <!-- Replace this line -->
-                <!-- Remove the onclick attribute and rely on the event listener -->
-                <button class="btn-book" id="modalBookBtn">
-                    <i class="fas fa-concierge-bell"></i> Book This Room
-                </button>
-                <!-- With this line (remove the server-side C# call from the onclick, as it does not work in Razor views for client-side events) -->
-                
-        </div>
-    </div>
-    <div class="toast" id="toast">
-        <i class="fas fa-check-circle"></i>
-        <span id="toastMessage">Room booked successfully!</span>
-    </div>
+	<!-- Room Modal -->
+	<div class="modal-overlay" id="roomModal">
+		<div class="luxury-modal">
+			<div class="modal-header">
+				<h2 class="modal-title" id="modalRoomTitle"><i class="fas fa-info-circle"></i> Room Details</h2>
+				<button class="btn-close" id="closeModal"><i class="fas fa-times"></i></button>
+			</div>
+			<div class="modal-content" id="modalContent">
+				<!-- Modal content will be loaded dynamically -->
+			</div>
+			<div class="modal-actions">
+				<button class="btn-details" id="addToFavorites"><i class="far fa-heart"></i> Add to Favorites</button>
+				<button class="btn-book" id="modalBookBtn">
+					<i class="fas fa-concierge-bell"></i> Book This Room
+				</button>
+			</div>
+		</div>
+		<div class="toast" id="toast">
+			<i class="fas fa-check-circle"></i>
+			<span id="toastMessage">Room booked successfully!</span>
+		</div>
 </section>
 
 @section Scripts {
-    <script>
-        const serverRooms = @Html.Raw(roomsJson);
-    </script>
-    <script src="~/js/rooms.js"></script>
+	<script>
+		const serverRooms = @Html.Raw(roomsJson);
+	</script>
+	<script src="~/js/rooms.js"></script>
 }

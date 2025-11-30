@@ -3,484 +3,488 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 div class="search-overlay" id="searchOverlay">
-    <div class="search-overlay-content">
-        <div class="search-overlay-header">
-            <h3>Search</h3>
-            <button class="close-search" id="closeSearch">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-        <div class="search-overlay-body">
-            <div class="search-input-container large">
-                <input type="text" placeholder="What are you looking for?" class="search-input large">
-                <button class="search-submit large">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-            <div class="search-categories">
-                <button class="search-category">
-                    <i class="fas fa-bed"></i>
-                    <span>Rooms</span>
-                </button>
-                <button class="search-category">
-                    <i class="fas fa-utensils"></i>
-                    <span>Dining</span>
-                </button>
-                <button class="search-category">
-                    <i class="fas fa-spa"></i>
-                    <span>Spa</span>
-                </button>
-                <button class="search-category">
-                    <i class="fas fa-calendar"></i>
-                    <span>Events</span>
-                </button>
-            </div>
-        </div>
-    </div>
+<div class="search-overlay-content">
+	<div class="search-overlay-header">
+		<h3>Search</h3>
+		<button class="close-search" id="closeSearch">
+			<i class="fas fa-times"></i>
+		</button>
+	</div>
+	<div class="search-overlay-body">
+		<div class="search-input-container large">
+			<input type="text" placeholder="What are you looking for?" class="search-input large">
+			<button class="search-submit large">
+				<i class="fas fa-search"></i>
+			</button>
+		</div>
+		<div class="search-categories">
+			<button class="search-category">
+				<i class="fas fa-bed"></i>
+				<span>Rooms</span>
+			</button>
+			<button class="search-category">
+				<i class="fas fa-utensils"></i>
+				<span>Dining</span>
+			</button>
+			<button class="search-category">
+				<i class="fas fa-spa"></i>
+				<span>Spa</span>
+			</button>
+			<button class="search-category">
+				<i class="fas fa-calendar"></i>
+				<span>Events</span>
+			</button>
+		</div>
+	</div>
+</div>
 </div>
 <section class="hero-section">
-    <!-- Background Video -->
-    <video autoplay
-           muted
-           loop
-           playsinline
-           id="heroVideo"
-           class="hero-video"
-           preload="auto">
-        <source src="~/Videos/a.mp4" type="video/mp4" />
-    </video>
-    <div class="hero-overlay"></div>
-    <div class="glass-circle circle1"></div>
-    <div class="glass-circle circle2"></div>
-    <div class="glass-circle circle3"></div>
-    <div class="hero-content">
-        <h1 class="hero-title reveal">
-            Experience <span id="typewriter"></span>
-        </h1>
-        <p class="hero-subtitle reveal">
-            Where sophistication meets comfort. Discover unforgettable stays.
-        </p>
-        <div class="hero-cta reveal">
-            <button class="hero-btn">Book Now</button>
-            <button class="hero-btn-outline">Watch Tour</button>
-        </div>
-        <div class="hero-stats reveal">
-            <div class="stat"><strong>150K+</strong><span>Guests</span></div>
-            <div class="stat"><strong>20K+</strong><span>Reviews</span></div>
-            <div class="stat"><strong>4.9★</strong><span>Rating</span></div>
-        </div>
-    </div>
+	<!-- Background Video -->
+	<video autoplay
+		   muted
+		   loop
+		   playsinline
+		   id="heroVideo"
+		   class="hero-video"
+		   preload="auto">
+		<source src="~/Videos/a.mp4" type="video/mp4" />
+	</video>
+	<div class="hero-overlay"></div>
+	<div class="glass-circle circle1"></div>
+	<div class="glass-circle circle2"></div>
+	<div class="glass-circle circle3"></div>
+	<div class="hero-content">
+		<h1 class="hero-title reveal">
+			Experience <span id="typewriter"></span>
+		</h1>
+		<p class="hero-subtitle reveal">
+			Where sophistication meets comfort. Discover unforgettable stays.
+		</p>
+		<div class="hero-cta reveal">
+			<form asp-action="Index" asp-controller="Rooms">
+				<button type="submit" class="hero-btn">Book Now</button>
+			</form>
+			<form asp-action="Index" asp-controller="Rooms">
+				<button class="hero-btn-outline">Watch Tour</button>
+			</form>
+		</div>
+		<div class="hero-stats reveal">
+			<div class="stat"><strong>150K+</strong><span>Guests</span></div>
+			<div class="stat"><strong>20K+</strong><span>Reviews</span></div>
+			<div class="stat"><strong>4.9★</strong><span>Rating</span></div>
+		</div>
+	</div>
 </section>
 <section class="special-offers-section">
-    <div class="offers-container">
-        <div class="offers-header">
-            <h2>Exclusive Hotel Offers</h2>
-            <p class="offers-subtitle">Indulge in our limited-time luxury packages and create unforgettable memories</p>
+	<div class="offers-container">
+		<div class="offers-header">
+			<h2>Exclusive Hotel Offers</h2>
+			<p class="offers-subtitle">Indulge in our limited-time luxury packages and create unforgettable memories</p>
 
-            <div class="offer-tabs">
-                <button class="offer-tab active">All Offers</button>
-                <button class="offer-tab">Seasonal</button>
-                <button class="offer-tab">Romantic</button>
-                <button class="offer-tab">Family</button>
-                <button class="offer-tab">Luxury</button>
-            </div>
-        </div>
+			@* <div class="offer-tabs"> *@
+			@* 	<button class="offer-tab active">All Offers</button> *@
+			@* 	<button class="offer-tab">Seasonal</button> *@
+			@* 	<button class="offer-tab">Romantic</button> *@
+			@* 	<button class="offer-tab">Family</button> *@
+			@* 	<button class="offer-tab">Luxury</button> *@
+			@* </div> *@
+		</div>
 
-        <div class="offers-grid">
-            <div class="offer-card">
-                <div class="ribbon">Best Value</div>
-                <div class="offer-image">
-                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Summer Escape Package">
-                    <div class="offer-badge">Limited Time</div>
-                </div>
-                <div class="offer-content">
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3 class="offer-title">Summer Escape Package</h3>
-                    <div class="offer-price">
-                        $199 <span class="original-price">$299</span>
-                        <span class="discount-badge">Save 33%</span>
-                    </div>
-                    <p class="offer-description">Enjoy a relaxing summer getaway with our exclusive package including breakfast, spa access, and late checkout.</p>
+		<div class="offers-grid">
+			<div class="offer-card">
+				<div class="ribbon">Best Value</div>
+				<div class="offer-image">
+					<img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Summer Escape Package">
+					<div class="offer-badge">Limited Time</div>
+				</div>
+				<div class="offer-content">
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h3 class="offer-title">Summer Escape Package</h3>
+					<div class="offer-price">
+						$199 <span class="original-price">$299</span>
+						<span class="discount-badge">Save 33%</span>
+					</div>
+					<p class="offer-description">Enjoy a relaxing summer getaway with our exclusive package including breakfast, spa access, and late checkout.</p>
 
-                    <div class="offer-features">
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>3 Days / 2 Nights</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Daily Breakfast for Two</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Complimentary Spa Access</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Late Checkout (2 PM)</span>
-                        </div>
-                    </div>
+					<div class="offer-features">
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>3 Days / 2 Nights</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Daily Breakfast for Two</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Complimentary Spa Access</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Late Checkout (2 PM)</span>
+						</div>
+					</div>
 
-                    <div class="countdown">
-                        <div class="countdown-title">Offer ends in:</div>
-                        <div class="timer" id="countdown1">
-                            <div class="time-unit">
-                                <div class="time-value" id="days1">05</div>
-                                <div class="time-label">Days</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="hours1">12</div>
-                                <div class="time-label">Hours</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="minutes1">45</div>
-                                <div class="time-label">Minutes</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="seconds1">22</div>
-                                <div class="time-label">Seconds</div>
-                            </div>
-                        </div>
-                    </div>
+					<div class="countdown">
+						<div class="countdown-title">Offer ends in:</div>
+						<div class="timer" id="countdown1">
+							<div class="time-unit">
+								<div class="time-value" id="days1">05</div>
+								<div class="time-label">Days</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="hours1">12</div>
+								<div class="time-label">Hours</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="minutes1">45</div>
+								<div class="time-label">Minutes</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="seconds1">22</div>
+								<div class="time-label">Seconds</div>
+							</div>
+						</div>
+					</div>
 
-                    <button class="offer-btn">Book Now</button>
-                </div>
-            </div>
-            <div class="offer-card">
-                <div class="offer-image">
-                    <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Romantic Getaway">
-                    <div class="offer-badge">Weekend Deal</div>
-                </div>
-                <div class="offer-content">
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3 class="offer-title">Romantic Getaway</h3>
-                    <div class="offer-price">
-                        $249 <span class="original-price">$349</span>
-                        <span class="discount-badge">Save 29%</span>
-                    </div>
-                    <p class="offer-description">Perfect for couples! Enjoy a romantic package with champagne, roses, and a candlelit dinner for two.</p>
+					<button class="offer-btn">Book Now</button>
+				</div>
+			</div>
+			<div class="offer-card">
+				<div class="offer-image">
+					<img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Romantic Getaway">
+					<div class="offer-badge">Weekend Deal</div>
+				</div>
+				<div class="offer-content">
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<h3 class="offer-title">Romantic Getaway</h3>
+					<div class="offer-price">
+						$249 <span class="original-price">$349</span>
+						<span class="discount-badge">Save 29%</span>
+					</div>
+					<p class="offer-description">Perfect for couples! Enjoy a romantic package with champagne, roses, and a candlelit dinner for two.</p>
 
-                    <div class="offer-features">
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>2 Nights Luxury Suite</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Champagne & Chocolate on Arrival</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Candlelit Dinner for Two</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Couples Massage Session</span>
-                        </div>
-                    </div>
+					<div class="offer-features">
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>2 Nights Luxury Suite</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Champagne & Chocolate on Arrival</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Candlelit Dinner for Two</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Couples Massage Session</span>
+						</div>
+					</div>
 
-                    <div class="countdown">
-                        <div class="countdown-title">Offer ends in:</div>
-                        <div class="timer" id="countdown2">
-                            <div class="time-unit">
-                                <div class="time-value" id="days2">03</div>
-                                <div class="time-label">Days</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="hours2">08</div>
-                                <div class="time-label">Hours</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="minutes2">30</div>
-                                <div class="time-label">Minutes</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="seconds2">15</div>
-                                <div class="time-label">Seconds</div>
-                            </div>
-                        </div>
-                    </div>
+					<div class="countdown">
+						<div class="countdown-title">Offer ends in:</div>
+						<div class="timer" id="countdown2">
+							<div class="time-unit">
+								<div class="time-value" id="days2">03</div>
+								<div class="time-label">Days</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="hours2">08</div>
+								<div class="time-label">Hours</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="minutes2">30</div>
+								<div class="time-label">Minutes</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="seconds2">15</div>
+								<div class="time-label">Seconds</div>
+							</div>
+						</div>
+					</div>
 
-                    <button class="offer-btn">Book Now</button>
-                </div>
-            </div>
-            <div class="offer-card">
-                <div class="offer-image">
-                    <img src="https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Family Fun Package">
-                    <div class="offer-badge">Family Special</div>
-                </div>
-                <div class="offer-content">
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3 class="offer-title">Family Fun Package</h3>
-                    <div class="offer-price">
-                        $349 <span class="original-price">$499</span>
-                        <span class="discount-badge">Save 30%</span>
-                    </div>
-                    <p class="offer-description">Create lasting memories with your family. Includes connecting rooms, kids eat free, and family activity passes.</p>
+					<button class="offer-btn">Book Now</button>
+				</div>
+			</div>
+			<div class="offer-card">
+				<div class="offer-image">
+					<img src="https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Family Fun Package">
+					<div class="offer-badge">Family Special</div>
+				</div>
+				<div class="offer-content">
+					<div class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<h3 class="offer-title">Family Fun Package</h3>
+					<div class="offer-price">
+						$349 <span class="original-price">$499</span>
+						<span class="discount-badge">Save 30%</span>
+					</div>
+					<p class="offer-description">Create lasting memories with your family. Includes connecting rooms, kids eat free, and family activity passes.</p>
 
-                    <div class="offer-features">
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Connecting Rooms for 4</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Kids Eat Free (Under 12)</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Family Activity Passes</span>
-                        </div>
-                        <div class="offer-feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Complimentary Board Games</span>
-                        </div>
-                    </div>
+					<div class="offer-features">
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Connecting Rooms for 4</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Kids Eat Free (Under 12)</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Family Activity Passes</span>
+						</div>
+						<div class="offer-feature">
+							<i class="fas fa-check-circle"></i>
+							<span>Complimentary Board Games</span>
+						</div>
+					</div>
 
-                    <div class="countdown">
-                        <div class="countdown-title">Offer ends in:</div>
-                        <div class="timer" id="countdown3">
-                            <div class="time-unit">
-                                <div class="time-value" id="days3">07</div>
-                                <div class="time-label">Days</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="hours3">10</div>
-                                <div class="time-label">Hours</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="minutes3">20</div>
-                                <div class="time-label">Minutes</div>
-                            </div>
-                            <div class="time-unit">
-                                <div class="time-value" id="seconds3">40</div>
-                                <div class="time-label">Seconds</div>
-                            </div>
-                        </div>
-                    </div>
+					<div class="countdown">
+						<div class="countdown-title">Offer ends in:</div>
+						<div class="timer" id="countdown3">
+							<div class="time-unit">
+								<div class="time-value" id="days3">07</div>
+								<div class="time-label">Days</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="hours3">10</div>
+								<div class="time-label">Hours</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="minutes3">20</div>
+								<div class="time-label">Minutes</div>
+							</div>
+							<div class="time-unit">
+								<div class="time-value" id="seconds3">40</div>
+								<div class="time-label">Seconds</div>
+							</div>
+						</div>
+					</div>
 
-                    <button class="offer-btn">Book Now</button>
-                </div>
-            </div>
-        </div>
+					<button class="offer-btn">Book Now</button>
+				</div>
+			</div>
+		</div>
 
-        <div class="offers-info">
-            <h3 class="info-title">Why Choose Our Special Offers?</h3>
-            <p class="info-text">Our exclusive packages are carefully crafted to provide exceptional value and unforgettable experiences. Each offer includes premium amenities and special touches that elevate your stay beyond the ordinary. With limited availability and time-sensitive pricing, these deals represent the perfect opportunity to indulge in luxury at an exceptional value.</p>
-        </div>
-    </div>
+		<div class="offers-info">
+			<h3 class="info-title">Why Choose Our Special Offers?</h3>
+			<p class="info-text">Our exclusive packages are carefully crafted to provide exceptional value and unforgettable experiences. Each offer includes premium amenities and special touches that elevate your stay beyond the ordinary. With limited availability and time-sensitive pricing, these deals represent the perfect opportunity to indulge in luxury at an exceptional value.</p>
+		</div>
+	</div>
 </section>
 
 <section class="about-hotel" id="about">
-    <div class="about-bg"></div>
-    <div class="about-overlay"></div>
-    <div class="spotlight"></div>
+	<div class="about-bg"></div>
+	<div class="about-overlay"></div>
+	<div class="spotlight"></div>
 
-    <div class="about-container">
-        <div class="about-text">
-            <h2>
-                Discover <span>Grand Haven Hotel</span>
-            </h2>
-            <p>
-                Since 1928, Grand Haven has been a sanctuary of timeless elegance.
-                Nestled in the heart of the city, we blend heritage architecture
-                with modern sophistication, offering experiences that redefine luxury.
-            </p>
-            <div class="signature-block">
-                <div class="signature-line"></div>
-                <blockquote class="signature-quote">
-                    “Luxury Redefined. Memories Eternal.”
-                </blockquote>
-            </div>
-            <div class="hotel-facts">
-                <div class="fact"><i class="fas fa-map-marker-alt"></i><span>Iconic Location</span></div>
-                <div class="fact"><i class="fas fa-star"></i><span>Five-Star Luxury</span></div>
-                <div class="fact"><i class="fas fa-glass-cheers"></i><span>Signature Experiences</span></div>
-                <div class="fact"><i class="fas fa-clock"></i><span>Since 1928</span></div>
-            </div>
-            <a href="about.html" class="btn-learn-more">Explore More</a>
-        </div>
-        <div class="about-media">
-            <div class="video-wrapper">
-                <video autoplay muted loop playsinline>
-                    <source src="~/Videos/adv.mp4" type="video/mp4">
-                </video>
-                <div class="media-overlay"></div>
-            </div>
-        </div>
-    </div>
+	<div class="about-container">
+		<div class="about-text">
+			<h2>
+				Discover <span>Grand Haven Hotel</span>
+			</h2>
+			<p>
+				Since 1928, Grand Haven has been a sanctuary of timeless elegance.
+				Nestled in the heart of the city, we blend heritage architecture
+				with modern sophistication, offering experiences that redefine luxury.
+			</p>
+			<div class="signature-block">
+				<div class="signature-line"></div>
+				<blockquote class="signature-quote">
+					“Luxury Redefined. Memories Eternal.”
+				</blockquote>
+			</div>
+			<div class="hotel-facts">
+				<div class="fact"><i class="fas fa-map-marker-alt"></i><span>Iconic Location</span></div>
+				<div class="fact"><i class="fas fa-star"></i><span>Five-Star Luxury</span></div>
+				<div class="fact"><i class="fas fa-glass-cheers"></i><span>Signature Experiences</span></div>
+				<div class="fact"><i class="fas fa-clock"></i><span>Since 1928</span></div>
+			</div>
+			<a asp-action="Index" asp-controller="Rooms" class="btn-learn-more">Explore More</a>
+		</div>
+		<div class="about-media">
+			<div class="video-wrapper">
+				<video autoplay muted loop playsinline>
+					<source src="~/Videos/adv.mp4" type="video/mp4">
+				</video>
+				<div class="media-overlay"></div>
+			</div>
+		</div>
+	</div>
 </section>
 <section class="hotel-gallery-section">
-    <div class="gallery-header">
-        <div class="floating-elements">
-            <div class="floating-dot"></div>
-            <div class="floating-dot"></div>
-            <div class="floating-dot"></div>
-        </div>
-        <h2>Hotel <span class="gold-accent">Gallery</span></h2>
-        <div class="header-line"></div>
-        <p class="gallery-subtitle">Explore our luxurious accommodations, amenities, and facilities through our visual journey</p>
-        <div class="gallery-stats">
-            <div class="stat-item">
-                <span class="stat-number" data-target="150">0</span>
-                <span class="stat-label">Luxury Rooms</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" data-target="5">0</span>
-                <span class="stat-label">Star Rating</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" data-target="25">0</span>
-                <span class="stat-label">Years Experience</span>
-            </div>
-        </div>
-    </div>
+	<div class="gallery-header">
+		<div class="floating-elements">
+			<div class="floating-dot"></div>
+			<div class="floating-dot"></div>
+			<div class="floating-dot"></div>
+		</div>
+		<h2>Hotel <span class="gold-accent">Gallery</span></h2>
+		<div class="header-line"></div>
+		<p class="gallery-subtitle">Explore our luxurious accommodations, amenities, and facilities through our visual journey</p>
+		<div class="gallery-stats">
+			<div class="stat-item">
+				<span class="stat-number" data-target="150">0</span>
+				<span class="stat-label">Luxury Rooms</span>
+			</div>
+			<div class="stat-item">
+				<span class="stat-number" data-target="5">0</span>
+				<span class="stat-label">Star Rating</span>
+			</div>
+			<div class="stat-item">
+				<span class="stat-number" data-target="25">0</span>
+				<span class="stat-label">Years Experience</span>
+			</div>
+		</div>
+	</div>
 
-    <div class="gallery-filters">
-        <button class="gallery-filter active" data-filter="all">
-            <i class="fas fa-th-large"></i>
-            All
-        </button>
-        <button class="gallery-filter" data-filter="rooms">
-            <i class="fas fa-bed"></i>
-            Rooms & Suites
-        </button>
-        <button class="gallery-filter" data-filter="dining">
-            <i class="fas fa-utensils"></i>
-            Dining
-        </button>
-        <button class="gallery-filter" data-filter="pool">
-            <i class="fas fa-swimming-pool"></i>
-            Pool & Spa
-        </button>
-        <button class="gallery-filter" data-filter="events">
-            <i class="fas fa-calendar-alt"></i>
-            Events
-        </button>
-        <button class="gallery-filter" data-filter="lobby">
-            <i class="fas fa-building"></i>
-            Lobby
-        </button>
-    </div>
+	<div class="gallery-filters">
+		<button class="gallery-filter active" data-filter="all">
+			<i class="fas fa-th-large"></i>
+			All
+		</button>
+		<button class="gallery-filter" data-filter="rooms">
+			<i class="fas fa-bed"></i>
+			Rooms & Suites
+		</button>
+		<button class="gallery-filter" data-filter="dining">
+			<i class="fas fa-utensils"></i>
+			Dining
+		</button>
+		<button class="gallery-filter" data-filter="pool">
+			<i class="fas fa-swimming-pool"></i>
+			Pool & Spa
+		</button>
+		<button class="gallery-filter" data-filter="events">
+			<i class="fas fa-calendar-alt"></i>
+			Events
+		</button>
+		<button class="gallery-filter" data-filter="lobby">
+			<i class="fas fa-building"></i>
+			Lobby
+		</button>
+	</div>
 
-    <div class="gallery-search">
-        <div class="search-container">
-            <input type="text" placeholder="Search gallery..." id="searchInput">
-            <i class="fas fa-search"></i>
-        </div>
-    </div>
+	<div class="gallery-search">
+		<div class="search-container">
+			<input type="text" placeholder="Search gallery..." id="searchInput">
+			<i class="fas fa-search"></i>
+		</div>
+	</div>
 
-    @model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
+	@model IEnumerable<Bookify.DataAccessLayer.Entities.Room>
 
-    <div class="gallery-grid" id="galleryGrid">
-        @foreach (var room in Model)
-        {
-            <div class="gallery-item"
-                 data-category="@room.RoomType.TypeName.ToLower()"
-                 data-tags="@room.RoomName.ToLower() @room.RoomType.TypeName.ToLower()">
+	<div class="gallery-grid" id="galleryGrid">
+		@foreach (var room in Model)
+		{
+			<div class="gallery-item"
+				 data-category="@room.RoomType.TypeName.ToLower()"
+				 data-tags="@room.RoomName.ToLower() @room.RoomType.TypeName.ToLower()">
 
-                <div class="image-container">
-                    <img src="@room.ImageUrl" alt="@room.RoomName">
-                    <div class="image-overlay">
-                        <div class="zoom-icon"><i class="fas fa-expand"></i></div>
-                        <div class="favorite-btn"><i class="far fa-heart"></i></div>
-                    </div>
-                </div>
+				<div class="image-container">
+					<img src="@room.ImageUrl" alt="@room.RoomName">
+					<div class="image-overlay">
+						<div class="zoom-icon"><i class="fas fa-expand"></i></div>
+						<div class="favorite-btn"><i class="far fa-heart"></i></div>
+					</div>
+				</div>
 
-                <div class="gallery-overlay">
-                    <div class="gallery-item-title">@room.RoomName</div>
-                    <div class="gallery-item-desc">@room.Description</div>
-                    <div class="item-tags">
-                        <span class="tag">@room.RoomType.TypeName.ToUpper()</span>
-                        <span class="tag">@room.Status</span>
-                        <span class="tag">Price: @room.Price.ToString("C")</span>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
+				<div class="gallery-overlay">
+					<div class="gallery-item-title">@room.RoomName</div>
+					<div class="gallery-item-desc">@room.Description</div>
+					<div class="item-tags">
+						<span class="tag">@room.RoomType.TypeName.ToUpper()</span>
+						<span class="tag">@room.Status</span>
+						<span class="tag">Price: @room.Price.ToString("C")</span>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
 
-    <div class="load-more-container">
-        <button class="load-more-btn" id="loadMoreBtn">
-            <i class="fas fa-plus"></i>
-            Load More Images
-        </button>
-    </div>
+	<div class="load-more-container">
+		<button class="load-more-btn" id="loadMoreBtn">
+			<i class="fas fa-plus"></i>
+			Load More Images
+		</button>
+	</div>
 
-    <div class="video-tour">
-        <div class="video-header">
-            <h3><i class="fas fa-video"></i> Virtual Hotel Tour</h3>
-            <p>Experience our luxury facilities through this immersive video journey</p>
-        </div>
-        <div class="video-container">
-            <div class="video-placeholder" id="videoPlaceholder">
-                <div class="play-button">
-                    <i class="fas fa-play"></i>
-                </div>
-                <div class="video-info">
-                    <h4>HD Virtual Tour</h4>
-                    <p>3 minutes • 4K Quality</p>
-                </div>
-            </div>
-            <iframe id="hotelVideo" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
-        </div>
-    </div>
-    <div class="gallery-actions">
-        <button class="action-btn" id="shareGallery">
-            <i class="fas fa-share-alt"></i>
-            Share Gallery
-        </button>
-        <button class="action-btn" id="downloadCatalog">
-            <i class="fas fa-download"></i>
-            Download Catalog
-        </button>
-        <button class="action-btn" id="viewFavorites">
-            <i class="fas fa-heart"></i>
-            View Favorites (<span id="favCount">0</span>)
-        </button>
-    </div>
+	<div class="video-tour">
+		<div class="video-header">
+			<h3><i class="fas fa-video"></i> Virtual Hotel Tour</h3>
+			<p>Experience our luxury facilities through this immersive video journey</p>
+		</div>
+		<div class="video-container">
+			<div class="video-placeholder" id="videoPlaceholder">
+				<div class="play-button">
+					<i class="fas fa-play"></i>
+				</div>
+				<div class="video-info">
+					<h4>HD Virtual Tour</h4>
+					<p>3 minutes • 4K Quality</p>
+				</div>
+			</div>
+			<iframe id="hotelVideo" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
+		</div>
+	</div>
+	<div class="gallery-actions">
+		<button class="action-btn" id="shareGallery">
+			<i class="fas fa-share-alt"></i>
+			Share Gallery
+		</button>
+		<button class="action-btn" id="downloadCatalog">
+			<i class="fas fa-download"></i>
+			Download Catalog
+		</button>
+		<button class="action-btn" id="viewFavorites">
+			<i class="fas fa-heart"></i>
+			View Favorites (<span id="favCount">0</span>)
+		</button>
+	</div>
 </section>
 
 <div class="lightbox-modal" id="lightbox">
-    <div class="lightbox-content">
-        <span class="lightbox-close" id="closeLightbox">&times;</span>
-        <div class="lightbox-navigation">
-            <button class="nav-btn prev-btn" id="prevBtn">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="nav-btn next-btn" id="nextBtn">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-        </div>
-        <img src="" alt="" id="lightboxImage">
-        <div class="lightbox-caption">
-            <div class="title" id="lightboxTitle"></div>
-            <div id="lightboxDesc"></div>
-            <div class="lightbox-tags" id="lightboxTags"></div>
-        </div>
-        <div class="lightbox-counter">
-            <span id="currentImageIndex">1</span> / <span id="totalImages">12</span>
-        </div>
-    </div>
+	<div class="lightbox-content">
+		<span class="lightbox-close" id="closeLightbox">&times;</span>
+		<div class="lightbox-navigation">
+			<button class="nav-btn prev-btn" id="prevBtn">
+				<i class="fas fa-chevron-left"></i>
+			</button>
+			<button class="nav-btn next-btn" id="nextBtn">
+				<i class="fas fa-chevron-right"></i>
+			</button>
+		</div>
+		<img src="" alt="" id="lightboxImage">
+		<div class="lightbox-caption">
+			<div class="title" id="lightboxTitle"></div>
+			<div id="lightboxDesc"></div>
+			<div class="lightbox-tags" id="lightboxTags"></div>
+		</div>
+		<div class="lightbox-counter">
+			<span id="currentImageIndex">1</span> / <span id="totalImages">12</span>
+		</div>
+	</div>
 </div>
-@section scripts{
-    <script src="~/js/home.js" ></script>
+@section scripts {
+	<script src="~/js/home.js"></script>
 }

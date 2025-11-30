@@ -836,26 +836,48 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function openLightbox(index) {
-        currentIndex = index;
         const item = items[index];
+        currentIndex = index;
+
         const img = item.querySelector("img");
         const title = item.querySelector(".gallery-item-title").textContent;
         const desc = item.querySelector(".gallery-item-desc").textContent;
         const tags = item.querySelectorAll(".tag");
 
+        // Set lightbox content
         lightboxImage.src = img.src;
         lightboxTitle.textContent = title;
         lightboxDesc.textContent = desc;
         lightboxTags.innerHTML = "";
         tags.forEach((tag) => {
-            const tagClone = tag.cloneNode(true);
-            lightboxTags.appendChild(tagClone);
+            lightboxTags.appendChild(tag.cloneNode(true));
         });
 
-        currentImageIndex.textContent = index + 1;
+        // Force the lightbox to be centered
         lightbox.style.display = "flex";
+        lightbox.style.justifyContent = "center";
+        lightbox.style.alignItems = "center";
+        lightbox.style.flexDirection = "column";
+
+        lightboxImage.style.maxHeight = "80vh";
+        lightboxImage.style.maxWidth = "90%";
+        lightboxImage.style.margin = "0 auto";
+        lightboxImage.style.display = "block";
+        lightboxImage.style.objectFit = "contain";
+
         document.body.style.overflow = "hidden";
+
+        // Scroll the clicked gallery item to the center of viewport
+        item.scrollIntoView({ behavior: "smooth", block: "center" });
     }
+
+    // Close lightbox function
+    function closeLightboxModal() {
+        lightbox.style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+
+
 
     function closeLightboxModal() {
         lightbox.style.display = "none";
@@ -1090,9 +1112,16 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
     const images = document.querySelectorAll(".gallery-item img");
+
     images.forEach((img) => {
+        const parent = img.parentElement;
+        parent.style.display = 'flex';
+        parent.style.justifyContent = 'center';
+        parent.style.alignItems = 'center';
+
         imageObserver.observe(img);
     });
+
     function smoothScroll(target) {
         target.scrollIntoView({
             behavior: "smooth",

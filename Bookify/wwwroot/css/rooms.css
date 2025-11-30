@@ -60,7 +60,6 @@ body {
     background: var(--gradient-page);
     color: var(--text-light);
     min-height: 100vh;
-/*    padding: 20px;*/
     overflow-x: hidden;
 }
 
@@ -115,6 +114,10 @@ body {
     justify-content: center;
     font-size: 1.5rem;
     color: var(--deep-black);
+}
+
+.breadcrumb{
+    padding: 0 20px;
 }
 
 .hotel-title {
@@ -782,6 +785,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-height:60vh;
+    padding-bottom:20px;
 }
 
 .detail-group {

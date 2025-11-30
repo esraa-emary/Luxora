@@ -1,12 +1,14 @@
-﻿/* Cart Container */
-body{
-    margin:0;
+﻿
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 .cart-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
     min-height: 80vh;
+    padding-top:100px;
 }
 
 /* Cart Header */

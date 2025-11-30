@@ -2373,7 +2373,13 @@ h3 {
             content: "\f004";
             font-weight: 900;
         }
-
+.image-container img {
+    display: block;
+    margin: auto;
+    position: absolute;
+    max-width: 90vw;
+    max-height: 90vh;
+}
 .gallery-overlay {
     position: absolute;
     bottom: 0;
@@ -2386,8 +2392,10 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items:center;
     backdrop-filter: blur(5px);
     transition: all 0.3s ease;
+    max-height:80vh;
 }
 
 .gallery-item:hover .gallery-overlay {

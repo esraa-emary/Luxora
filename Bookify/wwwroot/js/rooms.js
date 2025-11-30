@@ -146,7 +146,6 @@ function renderRooms(roomsToRender = rooms) {
             <div class="room-image">
                 <img src="${room.image}" alt="Room ${room.number}" onerror="this.src='https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'">
                 <div class="room-status status-${room.status}">${room.status}</div>
-                ${isInCart ? '<div class="cart-badge">In Cart</div>' : ''}
             </div>
             <div class="room-content">
                 <div class="room-header">
@@ -213,7 +212,6 @@ async function openRoomModal(roomId) {
     modalContent.innerHTML = `
         <div class="modal-image">
             <img src="${room.image}" alt="Room ${room.number}" onerror="this.src='https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'">
-            ${isInCart ? '<div class="cart-badge">In Cart</div>' : ''}
         </div>
         <div class="modal-details">
             <div class="detail-group">
@@ -348,10 +346,9 @@ async function bookRoom(roomId, roomNumber, buttonElement) {
         return;
     }
 
-    // Show loading state
-    const originalText = buttonElement.innerHTML;
-    buttonElement.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Adding...';
     buttonElement.disabled = true;
+    buttonElement.className = 'btn-book btn-disabled';
+    buttonElement.innerHTML = `<i class="fas fa-spinner fa-spin"></i> Adding...`;
 
     try {
         // OPTIMISTIC UPDATE: Update UI immediately
@@ -411,6 +408,8 @@ async function bookRoom(roomId, roomNumber, buttonElement) {
         buttonElement.className = isCurrentlyInCart ? 'btn-book btn-disabled' : 'btn-book';
         buttonElement.innerHTML = `<i class="fas fa-concierge-bell"></i> ${isCurrentlyInCart ? 'In Cart' : 'Book Now'}`;
     }
+
+    updateRoomButtonState(roomNumber, true);
 }
 
 function addToFavorites(roomId) {
@@ -460,12 +459,26 @@ async function checkRoomInCartWithServer(roomNumber) {
 }
 
 function updateRoomButtonState(roomNumber, isInCart) {
-    // Update grid buttons
-    const gridButtons = document.querySelectorAll(`.btn-book[data-room-number="${roomNumber}"]`);
-    gridButtons.forEach(button => {
-        button.disabled = isInCart;
-        button.className = isInCart ? 'btn-book btn-disabled' : 'btn-book';
-        button.innerHTML = `<i class="fas fa-concierge-bell"></i> ${isInCart ? 'In Cart' : 'Book Now'}`;
+    // Update all room cards
+    const roomCards = document.querySelectorAll(`.room-card`);
+    roomCards.forEach(card => {
+        const number = card.querySelector('.room-title')?.textContent?.match(/\d+/)?.[0];
+        if (number == roomNumber) {
+            const button = card.querySelector(`.btn-book`);
+            if (button) {
+                button.disabled = isInCart;
+                button.className = isInCart ? 'btn-book btn-disabled' : 'btn-book';
+                button.innerHTML = `<i class="fas fa-concierge-bell"></i> ${isInCart ? 'In Cart' : 'Book Now'}`;
+            }
+
+            // Hide status text
+            const statusDiv = card.querySelector('.room-status');
+            if (statusDiv) statusDiv.style.display = 'none';
+
+            // Remove cart badge
+            const badge = card.querySelector('.cart-badge');
+            if (badge) badge.remove();
+        }
     });
 
     // Update modal button if open
@@ -474,11 +487,14 @@ function updateRoomButtonState(roomNumber, isInCart) {
         const room = rooms.find(r => r.number == roomNumber);
         modalButton.disabled = room.status !== 'available' || isInCart;
         modalButton.className = isInCart ? 'btn-book btn-disabled' : 'btn-book';
-        modalButton.innerHTML = `<i class="fas fa-concierge-bell"></i> ${isInCart ? 'Already in Cart' : (room.status === 'available' ? 'Book This Room' : 'Not Available')}`;
-    }
+        modalButton.innerHTML = `<i class="fas fa-concierge-bell"></i> ${isInCart ? 'Already in Cart' : 'Book This Room'}`;
 
-    updateCartBadges();
+        // Hide status in modal
+        const modalStatus = document.querySelector('#modalContent .status-' + room.status);
+        if (modalStatus) modalStatus.style.display = 'none';
+    }
 }
+
 
 function updateCartBadges() {
     // Remove all existing badges

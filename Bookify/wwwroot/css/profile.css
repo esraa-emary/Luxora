@@ -471,7 +471,7 @@ body {
     margin-bottom: 25px;
 }
 
-.benefit-item {
+.profile-page .benefit-item {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -481,21 +481,21 @@ body {
     border: 1px solid #e0e0e0;
 }
 
-    .benefit-item.active {
+    .profile-page .benefit-item.active {
         background: rgba(212, 163, 115, 0.1);
         border-color: var(--primary-gold);
     }
 
-    .benefit-item i {
+    .profile-page .benefit-item i {
         width: 20px;
         text-align: center;
     }
 
-    .benefit-item.active i {
+    .profile-page .benefit-item.active i {
         color: #28a745;
     }
 
-    .benefit-item:not(.active) i {
+    .profile-page .benefit-item:not(.active) i {
         color: #dc3545;
     }
 
