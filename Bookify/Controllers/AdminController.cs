@@ -52,7 +52,7 @@ namespace Bookify.Controllers
 
         // Add Room - POST
         [HttpPost]
-        public async Task<IActionResult> AddRoom(int roomNumber, string description, string status, decimal price, int roomTypeId)
+        public async Task<IActionResult> AddRoom(int roomNumber, string roomName, string description, string status, decimal price, int roomTypeId, string imageUrl)
         {
             try
             {
@@ -68,10 +68,18 @@ namespace Bookify.Controllers
                 var room = new Room
                 {
                     RoomNumber = roomNumber,
+                    RoomName = roomName,
                     Description = description,
                     Status = status,
                     Price = price,
-                    RoomTypeId = roomTypeId
+                    RoomTypeId = roomTypeId,
+                    ImageUrl = imageUrl,
+                    // Set default values for other fields (can be edited later)
+                    Capacity = 2,
+                    Size = "Standard",
+                    BedType = "Queen Size",
+                    View = "City View",
+                    Amenities = "WiFi,Air Conditioning,TV"
                 };
 
                 _context.Rooms.Add(room);
@@ -107,7 +115,7 @@ namespace Bookify.Controllers
 
         // Edit Room - POST
         [HttpPost]
-        public async Task<IActionResult> EditRoom(int roomNumber, string description, string status, decimal price, int roomTypeId)
+        public async Task<IActionResult> EditRoom(int roomNumber, string roomName, string description, string status, decimal price, int roomTypeId, string imageUrl, int capacity, string size, string bedType, string view, string amenities)
         {
             try
             {
@@ -117,10 +125,17 @@ namespace Bookify.Controllers
                     return NotFound();
                 }
 
+                room.RoomName = roomName;
                 room.Description = description;
                 room.Status = status;
                 room.Price = price;
                 room.RoomTypeId = roomTypeId;
+                room.ImageUrl = imageUrl;
+                room.Capacity = capacity;
+                room.Size = size;
+                room.BedType = bedType;
+                room.View = view;
+                room.Amenities = amenities;
 
                 _context.Rooms.Update(room);
                 await _context.SaveChangesAsync();

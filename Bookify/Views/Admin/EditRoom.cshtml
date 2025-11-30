@@ -84,6 +84,14 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="roomName">
+                                <i class="fas fa-tag"></i> Room Name
+                            </label>
+                            <input type="text" id="roomName" name="roomName" required 
+                                   value="@Model.RoomName" maxlength="100">
+                        </div>
+
+                        <div class="form-group">
                             <label for="roomTypeId">
                                 <i class="fas fa-bed"></i> Room Type
                             </label>
@@ -120,6 +128,47 @@
                                 <option value="Maintenance" selected="@(Model.Status == "Maintenance")">Maintenance</option>
                             </select>
                         </div>
+
+                        <div class="form-group">
+                            <label for="capacity">
+                                <i class="fas fa-users"></i> Capacity
+                            </label>
+                            <input type="number" id="capacity" name="capacity" required 
+                                   value="@Model.Capacity" min="1" max="10">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="size">
+                                <i class="fas fa-ruler-combined"></i> Size (sq m)
+                            </label>
+                            <input type="text" id="size" name="size" required 
+                                   value="@Model.Size" maxlength="50">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bedType">
+                                <i class="fas fa-bed"></i> Bed Type
+                            </label>
+                            <input type="text" id="bedType" name="bedType" required 
+                                   value="@Model.BedType" maxlength="100">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="view">
+                                <i class="fas fa-eye"></i> View
+                            </label>
+                            <input type="text" id="view" name="view" required 
+                                   value="@Model.View" maxlength="100">
+                        </div>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="imageUrl">
+                            <i class="fas fa-image"></i> Image URL
+                        </label>
+                        <input type="url" id="imageUrl" name="imageUrl" required 
+                               value="@Model.ImageUrl">
+                        <small style="color: #666; font-size: 0.85em;">Enter a valid URL for the room image</small>
                     </div>
 
                     <div class="form-group full-width">
@@ -127,6 +176,15 @@
                             <i class="fas fa-align-left"></i> Description
                         </label>
                         <textarea id="description" name="description" rows="4" required>@Model.Description</textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="amenities">
+                            <i class="fas fa-concierge-bell"></i> Amenities
+                        </label>
+                        <textarea id="amenities" name="amenities" rows="3" required 
+                                  placeholder="e.g., WiFi,Air Conditioning,TV,Mini Bar">@Model.Amenities</textarea>
+                        <small style="color: #666; font-size: 0.85em;">Separate amenities with commas</small>
                     </div>
 
                     <div class="form-actions">
